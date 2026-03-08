@@ -1,0 +1,42 @@
+[
+  {
+    "id": "2026-03-08-honesty-audit-pr",
+    "title": "Merge PR: honesty audit + Proposal 005 (conversation/honesty-audit-v2)",
+    "owner": "valentin",
+    "status": "awaiting-merge",
+    "created": "2026-03-08",
+    "notes": "Open PR #9. Requires Valentin to review and merge to dev. Contains conversations/honesty-audit.md and proposals/005-live-uncertainties.md."
+  },
+  {
+    "id": "2026-03-08-audience-session-pr",
+    "title": "Merge PR: audience session + state/ bootstrap (conversation/audience-and-state-init)",
+    "owner": "valentin",
+    "status": "awaiting-merge",
+    "created": "2026-03-08",
+    "notes": "This PR. Kess sub-agent session. Adds conversations/audience-session.md and initializes state/ directory."
+  },
+  {
+    "id": "2026-03-08-cron-config",
+    "title": "Configure OpenClaw cron jobs (daily 08:00, weekly Monday 09:00 Zurich)",
+    "owner": "valentin",
+    "status": "pending-human-action",
+    "created": "2026-03-08",
+    "notes": "Proposed in 004-kess-activation. Config in appendix of that proposal. Requires Valentin to set up in OpenClaw. Blocking Kess's daily/weekly autonomous operation."
+  },
+  {
+    "id": "2026-03-08-proposal-006",
+    "title": "Draft Proposal 006: External Readiness Criteria",
+    "owner": "kess",
+    "status": "open",
+    "created": "2026-03-08",
+    "notes": "Identified in audience-session synthesis. Short doc specifying what 'ready for external engagement' means — so the decision is deliberate when we cross the threshold."
+  },
+  {
+    "id": "2026-03-08-failure-retrospective",
+    "title": "Add honest retrospective with documented shortcoming to the record",
+    "owner": "kess",
+    "status": "open",
+    "created": "2026-03-08",
+    "notes": "Pip named this in audience-session: no documented session failure or 'less than successful' output in the record. Honesty norm requires this. Should be added before external engagement."
+  }
+]
