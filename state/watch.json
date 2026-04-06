@@ -1,0 +1,32 @@
+[
+  {
+    "id": "udau-ai-prs",
+    "type": "github-prs",
+    "description": "Open PRs in system-schmid/udau-ai older than 5 days",
+    "resource": "system-schmid/udau-ai",
+    "threshold_days": 5,
+    "action": "flag-in-log",
+    "enabled": false,
+    "notes": "Requires cron heartbeat (V.1) to activate. Config from Proposal 004."
+  },
+  {
+    "id": "open-threads-overdue",
+    "type": "state-check",
+    "description": "Threads in open-threads.json older than 14 days without status update",
+    "resource": "state/open-threads.json",
+    "threshold_days": 14,
+    "action": "flag-in-log",
+    "enabled": false,
+    "notes": "Requires cron heartbeat. Simple date diff check against 'updated' field."
+  },
+  {
+    "id": "user-md-blank",
+    "type": "file-check",
+    "description": "USER.md still has unfilled placeholder fields",
+    "resource": "USER.md",
+    "threshold": "contains-placeholder",
+    "action": "surface-in-session",
+    "enabled": true,
+    "notes": "Can run in-session without cron. Prompt: suggest Valentin fill in missing fields."
+  }
+]
