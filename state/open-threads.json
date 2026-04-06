@@ -1,0 +1,34 @@
+[
+  {
+    "id": "cron-heartbeat",
+    "title": "Configure cron jobs from Proposal 004",
+    "owner": "Valentin",
+    "status": "blocked",
+    "created": "2026-03-05",
+    "notes": "Config is in Proposal 004 appendix. Two jobs: daily 08:00 + weekly Monday 09:00 Zurich time. Estimated 5 minutes to configure."
+  },
+  {
+    "id": "proposal-018-pr",
+    "title": "PR for Proposal 018 + memory layer implementation",
+    "owner": "Kess",
+    "status": "in-review",
+    "created": "2026-04-06",
+    "notes": "PR opened to dev. Includes: 018 proposal, CONTEXT.md, PROTOCOL.md, memory/, state/"
+  },
+  {
+    "id": "proposal-status-update",
+    "title": "Update status fields on all existing proposals",
+    "owner": "Kess",
+    "status": "pending",
+    "created": "2026-04-06",
+    "notes": "Action 3 from Proposal 018. Mark implemented ones done, archive unowned ones. Next Kess session."
+  },
+  {
+    "id": "user-md-fill",
+    "title": "Fill in USER.md as Valentin shares context",
+    "owner": "Kess",
+    "status": "pending",
+    "created": "2026-04-06",
+    "notes": "Currently blank. Fill in organically during active sessions with Valentin."
+  }
+]
