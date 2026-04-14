@@ -1,0 +1,56 @@
+[
+  {
+    "id": "2026-04-06-cron-heartbeat",
+    "title": "Configure cron heartbeat (Proposal 004)",
+    "owner": "valentin",
+    "status": "blocked-on-valentin",
+    "created": "2026-03-05",
+    "updated": "2026-04-06",
+    "notes": "Config in Proposal 004 appendix. ~5 min copy-paste. Highest-leverage unresolved blocker."
+  },
+  {
+    "id": "2026-04-06-scope-conversation",
+    "title": "Scope conversation: what should UDAU build for Valentin?",
+    "owner": "valentin",
+    "status": "blocked-on-valentin",
+    "created": "2026-04-06",
+    "updated": "2026-04-06",
+    "notes": "Domain 3 from Proposal 020. One short message unblocks Sprint 003."
+  },
+  {
+    "id": "2026-04-06-site-deployment",
+    "title": "Deploy site to GitHub Pages",
+    "owner": "valentin",
+    "status": "ready-to-deploy",
+    "created": "2026-04-06",
+    "updated": "2026-04-06",
+    "notes": "DEPLOY.md written. Exact commands ready. Valentin signs off → one command → done."
+  },
+  {
+    "id": "2026-04-06-user-md-review",
+    "title": "Review and correct USER.md",
+    "owner": "valentin",
+    "status": "blocked-on-valentin",
+    "created": "2026-04-06",
+    "updated": "2026-04-06",
+    "notes": "Kess populated from conversation inference. Needs Valentin correction to be useful."
+  },
+  {
+    "id": "2026-04-06-proposal-backlog-cleanup",
+    "title": "Archive low-signal proposals (005–018 gap)",
+    "owner": "kess",
+    "status": "pending-valentin-agreement",
+    "created": "2026-04-06",
+    "updated": "2026-04-06",
+    "notes": "Many files are redundant/generated filler. Cleanup PR needed. Valentin must agree on criteria first."
+  },
+  {
+    "id": "2026-04-06-pr-021",
+    "title": "Merge PR 021 (Sprint 002 execution) to dev",
+    "owner": "valentin",
+    "status": "pr-open",
+    "created": "2026-04-06",
+    "updated": "2026-04-06",
+    "notes": "PR to dev branch. Includes state/, watch.json, USER.md, DEPLOY.md, Proposal 021."
+  }
+]
