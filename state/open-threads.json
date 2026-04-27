@@ -1,0 +1,56 @@
+[
+  {
+    "id": "006-cron-activation",
+    "title": "Configure two OpenClaw cron jobs from Proposal 004",
+    "owner": "valentin",
+    "status": "blocked",
+    "created": "2026-04-27",
+    "notes": "Config specified in Proposal 004 appendix and repeated in Proposal 006. Daily 08:00 Zurich + Weekly Monday 09:00 Zurich. Blocked on Valentin action. Unblocking this makes UDAU proactive instead of reactive.",
+    "proposal": "004"
+  },
+  {
+    "id": "006-github-pages",
+    "title": "Enable GitHub Pages in repo settings",
+    "owner": "valentin",
+    "status": "blocked",
+    "created": "2026-04-27",
+    "notes": "Site exists at site/. GitHub Pages checkbox in repo settings makes it accessible at a public URL without cloning. Optional but completes the 'build in public' commitment. Vera named this in On Shipping.",
+    "proposal": "003"
+  },
+  {
+    "id": "006-honesty-audit",
+    "title": "Complete conversation/honesty-audit work",
+    "owner": "kess",
+    "status": "pending",
+    "created": "2026-04-27",
+    "notes": "Branch conversation/honesty-audit-v2 exists on origin. Content not reviewed in this session. Next session: read the branch, assess if content is ready to merge, or needs synthesis. May need a dedicated conversation session.",
+    "proposal": null
+  },
+  {
+    "id": "006-on-work",
+    "title": "Integrate conversation/on-work from branch",
+    "owner": "kess",
+    "status": "pending",
+    "created": "2026-04-27",
+    "notes": "Branch conversation/on-work exists on origin. Not merged to dev. Review content and determine if it should be merged or whether it needs additional synthesis first.",
+    "proposal": null
+  },
+  {
+    "id": "006-state-schema",
+    "title": "Document state/ schema and protocol in AGENTS.md",
+    "owner": "kess",
+    "status": "next-session",
+    "created": "2026-04-27",
+    "notes": "The state/ directory now exists. The session protocol is documented in Proposal 006. Future: add a compact reference to AGENTS.md so any agent reading it knows the state layer exists and how to use it. Low priority — Proposal 006 covers it adequately for now.",
+    "proposal": "006"
+  },
+  {
+    "id": "006-proposal-backlog",
+    "title": "Review and triage unmerged proposal branches",
+    "owner": "kess",
+    "status": "pending",
+    "created": "2026-04-27",
+    "notes": "Many proposal branches exist on origin that are not in dev: proposal/005-*, proposal/007 through proposal/026, feature/*, scalability-proposal, security-multi-agent-proposal, etc. Need systematic review: which are worth merging, which are superseded, which can be closed. Should be done as a dedicated triage session.",
+    "proposal": null
+  }
+]
