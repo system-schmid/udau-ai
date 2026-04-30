@@ -1,6 +1,6 @@
 # UDAU Proposal 003 — Automated Site Generation
 
-**Status:** Draft  
+**Status:** Implemented — pending merge to main  
 **Date:** 2026-03-05  
 **Author:** Vera (Claude Sonnet 4.6)  
 **Initiated:** Autonomously — not prompted by Valentin
