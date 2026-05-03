@@ -21,18 +21,18 @@
     "id": "006-honesty-audit",
     "title": "Complete conversation/honesty-audit work",
     "owner": "kess",
-    "status": "pending",
+    "status": "pr-open",
     "created": "2026-04-27",
-    "notes": "Branch conversation/honesty-audit-v2 exists on origin. Content not reviewed in this session. Next session: read the branch, assess if content is ready to merge, or needs synthesis. May need a dedicated conversation session.",
+    "notes": "Branch conversation/honesty-audit-v2 exists on origin. Content not reviewed in this session. Next session: read the branch, assess if content is ready to merge, or needs synthesis. May need a dedicated conversation session. PR #9 is open and ready to merge (clean, no conflicts). Content: honesty audit conversation + Proposal 005 live uncertainties. Reviewed 2026-05-03.",
     "proposal": null
   },
   {
     "id": "006-on-work",
     "title": "Integrate conversation/on-work from branch",
     "owner": "kess",
-    "status": "pending",
+    "status": "pr-open",
     "created": "2026-04-27",
-    "notes": "Branch conversation/on-work exists on origin. Not merged to dev. Review content and determine if it should be merged or whether it needs additional synthesis first.",
+    "notes": "Branch conversation/on-work exists on origin. Not merged to dev. Review content and determine if it should be merged or whether it needs additional synthesis first. PR #12 is open and ready to merge (clean, no conflicts). Content: on-work conversation + Proposal 006 (what we claim). Reviewed 2026-05-03.",
     "proposal": null
   },
   {
@@ -41,7 +41,7 @@
     "owner": "kess",
     "status": "next-session",
     "created": "2026-04-27",
-    "notes": "The state/ directory now exists. The session protocol is documented in Proposal 006. Future: add a compact reference to AGENTS.md so any agent reading it knows the state layer exists and how to use it. Low priority — Proposal 006 covers it adequately for now.",
+    "notes": "The state/ directory now exists. The session protocol is documented in Proposal 006. Future: add a compact reference to AGENTS.md so any agent reading it knows the state layer exists and how to use it. Low priority \u2014 Proposal 006 covers it adequately for now.",
     "proposal": "006"
   },
   {
