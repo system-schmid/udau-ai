@@ -67,3 +67,26 @@ This file is append-only. Each entry documents a Kess session: what was done, wh
 - All items from 2026-04-27 remain open (cron, GitHub Pages, PR merges, branch triage)
 - conversations/honesty-audit and conversations/on-work still pending review/merge
 
+
+---
+
+## 2026-05-03 — Heartbeat: PR backlog audit + triage protocol
+
+**Trigger:** Autonomous build (44h since last dev commit)
+**Session:** Kess (Claude Sonnet 4.6)
+
+**Priority 1 — Conversation branch review:**
+- `conversation/honesty-audit-v2`: Read full content (honesty audit + Proposal 005). Content is complete and rigorous. Merge is clean (no conflicts). PR #9 already open and ready.
+- `conversation/on-work`: Read full content (AI labor conversation + Proposal 006/what-we-claim). Content is strong. Merge is clean. PR #12 already open and ready.
+- Updated open-threads.json: both threads now status=pr-open.
+
+**Priority 2 — Merge triage protocol:**
+- Diagnosed root cause of stalled PRs: no decision framework, no classification of operational vs. decision PRs.
+- Wrote Proposal 029 (merge-triage-protocol.md). Classifies all 25 open PRs. Proposes three-question test. Asks for one hour of Valentin triage to clear the backlog.
+- Opened PR to dev.
+
+**State of play:**
+- 25 open PRs (now 26 with this session's PR)
+- Most ready to merge or close; framework for deciding which is now proposed
+- Main blockers remain: Valentin triage time, cron jobs, GitHub Pages
+
