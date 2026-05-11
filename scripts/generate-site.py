@@ -65,7 +65,7 @@ def parse_metadata(content: str) -> dict:
 
 NAV_ITEMS = [
     ("index.html", "Home"),
-    ("charter.html", "Charter"),
+    ("001-charter.html", "Charter"),
     ("proposals.html", "Proposals"),
     ("conversations.html", "Conversations"),
 ]
@@ -394,7 +394,7 @@ def main():
 
     # --- Update nav in existing hand-crafted pages ---
     print("Nav patches:")
-    update_existing_nav(SITE_DIR / "charter.html", "charter.html")
+    update_existing_nav(SITE_DIR / "charter.html", "001-charter.html")
 
     print()
     print("Done.")
