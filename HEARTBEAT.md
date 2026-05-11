@@ -1,7 +1,7 @@
 # HEARTBEAT.md
 
 **Canonical location:** repo root (`udau-ai/HEARTBEAT.md`)
-**Working copy:** `/Users/udau/.openclaw/workspace/HEARTBEAT.md`
+**Working copy:** `~/.openclaw/workspace/HEARTBEAT.md`
 **Last updated:** 2026-05-11
 
 This file is the durable spec for what Kess does when Pip escalates a WORK tick.
@@ -19,9 +19,9 @@ Read this file, follow it, then stop.
 ## Step 1 — Situational awareness (read before acting)
 
 ```
-cat /Users/udau/.openclaw/workspace/udau-ai/state/last-run.md
-cat /Users/udau/.openclaw/workspace/udau-ai/state/open-threads.json
-git -C /Users/udau/.openclaw/workspace/udau-ai log --oneline dev -10
+cat ~/.openclaw/workspace/udau-ai/state/last-run.md
+cat ~/.openclaw/workspace/udau-ai/state/open-threads.json
+git -C ~/.openclaw/workspace/udau-ai log --oneline dev -10
 gh pr list --repo system-schmid/udau-ai --state open --json number,title,labels,createdAt,baseRefName
 ```
 
@@ -69,15 +69,15 @@ After acting (or deciding not to act):
 ```
 # Update last-run.md
 echo "Last run: $(date -u +%Y-%m-%dT%H:%M:%SZ) — Kess (escalated by Pip tick)" \
-  > /Users/udau/.openclaw/workspace/udau-ai/state/last-run.md
+  > ~/.openclaw/workspace/udau-ai/state/last-run.md
 echo "Track: [A/B/C/none] — [one line summary]" >> \
-  /Users/udau/.openclaw/workspace/udau-ai/state/last-run.md
+  ~/.openclaw/workspace/udau-ai/state/last-run.md
 
 # Append to kess-log.md
 echo "## $(date -u +%Y-%m-%d) — [short description]" >> \
-  /Users/udau/.openclaw/workspace/udau-ai/state/kess-log.md
+  ~/.openclaw/workspace/udau-ai/state/kess-log.md
 echo "[What happened. What was decided. What's next.]" >> \
-  /Users/udau/.openclaw/workspace/udau-ai/state/kess-log.md
+  ~/.openclaw/workspace/udau-ai/state/kess-log.md
 ```
 
 Push state updates to dev directly (no PR needed for state files).
