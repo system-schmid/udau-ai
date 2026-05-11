@@ -109,9 +109,10 @@
     "id": "034-prs-44-45-decision",
     "title": "PRs #44 and #45 awaiting Valentin merge (PROTOCOL.md heartbeat update + HEARTBEAT.md)",
     "owner": "valentin",
-    "status": "pending",
+    "status": "done",
     "created": "2026-05-12",
-    "notes": "Decision-class PRs opened 2026-05-11. #44 updates PROTOCOL.md heartbeat cadence section to Pip-tick/Kess-escalate pattern. #45 adds HEARTBEAT.md to repo root. Both need Valentin review and merge. Ping if open >48h.",
-    "proposal": null
+    "notes": "Decision-class PRs opened 2026-05-11. #44 updates PROTOCOL.md heartbeat cadence section to Pip-tick/Kess-escalate pattern. #45 adds HEARTBEAT.md to repo root. Both need Valentin review and merge. Ping if open >48h. Merged 2026-05-12.",
+    "proposal": null,
+    "resolved": "2026-05-12"
   }
 ]
