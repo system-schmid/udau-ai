@@ -3,18 +3,20 @@
     "id": "006-cron-activation",
     "title": "Configure two OpenClaw cron jobs from Proposal 004",
     "owner": "valentin",
-    "status": "blocked",
+    "status": "done",
     "created": "2026-04-27",
-    "notes": "Config specified in Proposal 004 appendix and repeated in Proposal 006. Daily 08:00 Zurich + Weekly Monday 09:00 Zurich. Blocked on Valentin action. Unblocking this makes UDAU proactive instead of reactive. Note (2026-05-11): Pip heartbeat tick + Kess escalation pattern is now live via HEARTBEAT.md. Cron still needs Valentin to configure the OpenClaw cron entries.",
+    "resolved": "2026-05-11",
+    "notes": "Pip heartbeat tick + Kess escalation pattern is now live via HEARTBEAT.md. Cron job registered 2026-05-11 (job id 54b74167). Thread closed.",
     "proposal": "004"
   },
   {
     "id": "006-github-pages",
-    "title": "Enable GitHub Pages in repo settings",
+    "title": "Enable GitHub Pages / public hosting",
     "owner": "valentin",
-    "status": "blocked",
+    "status": "done",
     "created": "2026-04-27",
-    "notes": "Site exists at site/. GitHub Pages checkbox in repo settings makes it accessible at a public URL without cloning. Optional but completes the 'build in public' commitment. Vera named this in On Shipping.",
+    "resolved": "2026-05-11",
+    "notes": "Vercel connected, udau.ai live as of 2026-05-11. Thread closed.",
     "proposal": "003"
   },
   {
@@ -24,7 +26,7 @@
     "status": "done",
     "created": "2026-04-27",
     "resolved": "2026-03-08",
-    "notes": "PR #9 was merged 2026-03-08. conversations/honesty-audit.md and proposals/005-live-uncertainties.md are in dev and main. Branch conversation/honesty-audit-v2 is stale. Thread closed.",
+    "notes": "PR #9 merged. Thread closed.",
     "proposal": null
   },
   {
@@ -34,16 +36,17 @@
     "status": "done",
     "created": "2026-04-27",
     "resolved": "2026-03-10",
-    "notes": "PR #12 was merged 2026-03-10. conversations/on-work.md and proposals/006-what-we-claim.md are in dev. Branch conversation/on-work is stale. Thread closed.",
+    "notes": "PR #12 merged. Thread closed.",
     "proposal": null
   },
   {
     "id": "006-state-schema",
-    "title": "Document state/ schema and protocol in AGENTS.md",
+    "title": "Document state/ schema and protocol",
     "owner": "kess",
-    "status": "superseded",
+    "status": "done",
     "created": "2026-04-27",
-    "notes": "PROTOCOL.md (merged 2026-05-11) now documents the state layer, Kess role, and heartbeat protocol comprehensively. Adding to AGENTS.md is no longer needed. Closing.",
+    "resolved": "2026-05-11",
+    "notes": "PROTOCOL.md merged 2026-05-11. Thread closed.",
     "proposal": "006"
   },
   {
@@ -53,16 +56,26 @@
     "status": "done",
     "created": "2026-04-27",
     "resolved": "2026-05-11",
-    "notes": "Triage completed 2026-05-11. Summary: proposal/005-*, proposal/007, proposal/008, proposal/023, proposal/024, proposal/026 — all MERGED. proposal/019, proposal/020, proposal/021 — CLOSED (execution gap sprints, superseded by Proposal 029 merge triage). autonomous-framework-refinement — CLOSED (junk proposals, no content worth merging). scalability-proposal, security-multi-agent-proposal — CLOSED. udaup-007-communication-protocols, proposal/006-implementation-checkpoint — no PR, content superseded (22-line generic proposal; implementation-checkpoint superseded by fc7e3be). feature/* and ops/* branches — all either MERGED or CLOSED. No actionable unmerged proposal branches remain. Thread closed.",
+    "notes": "Triage completed 2026-05-11. All actionable branches merged or closed. Thread closed.",
     "proposal": null
   },
   {
     "id": "011-dev-to-main-lag",
-    "title": "Dev branch is significantly ahead of main",
+    "title": "Dev branch ahead of main",
     "owner": "valentin",
-    "status": "pending",
+    "status": "done",
     "created": "2026-05-11",
-    "notes": "Dev is 20+ commits ahead of main as of 2026-05-11. Two auto-merge:operational PRs (#42, #43) are open to dev and will merge after 24h. Many substantive conversations and proposals are in dev but not main. Valentin should review dev and decide when to merge to main via PR.",
+    "resolved": "2026-05-11",
+    "notes": "Dev→main promotions done multiple times 2026-05-11. Thread closed.",
+    "proposal": null
+  },
+  {
+    "id": "030-proposal-triage",
+    "title": "Triage all proposals in proposals/ — decide what to follow up, close, or renumber",
+    "owner": "kess",
+    "status": "pending",
+    "created": "2026-05-12",
+    "notes": "proposals/ contains: numbered proposals never acted on (005-agent-scope-contracts, 002-autonomy, 003-site-automation, 004-kess-activation, etc.), unnumbered junk (dependency-manager-skill, sustainability-awareness-campaign, udau-proposal-*, etc.), duplicate numbers (005x3, 006x2), and one '[Title Here]' template artifact. Task: read all proposals, multi-agent triage with Vera and Pip, produce a clear list of (a) worth implementing, (b) close with note, (c) renumber. Update open-threads.json with follow-up items. This was raised by Valentin 2026-05-12 and captured here so it survives session boundary.",
     "proposal": null
   }
 ]
