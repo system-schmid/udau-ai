@@ -1,0 +1,132 @@
+name: Auto-merge operational PRs
+
+on:
+  pull_request:
+    types: [opened, labeled, unlabeled, synchronize, reopened]
+  issue_comment:
+    types: [created, deleted, edited]
+  schedule:
+    - cron: '0 * * * *'  # hourly safety re-check so cooldown completion isn't gated on PR events
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: 'Specific PR number (optional — leave blank to scan all open auto-merge:operational PRs)'
+        required: false
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: read
+
+jobs:
+  evaluate-and-merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Evaluate auto-merge candidates
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const candidates = [];
+            const seen = new Set();
+            const addPr = (pr) => {
+              if (!seen.has(pr.number)) {
+                seen.add(pr.number);
+                candidates.push(pr);
+              }
+            };
+
+            if (context.eventName === 'pull_request') {
+              addPr(context.payload.pull_request);
+            } else if (context.eventName === 'issue_comment' && context.payload.issue?.pull_request) {
+              const { data: pr } = await github.rest.pulls.get({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.payload.issue.number,
+              });
+              addPr(pr);
+            } else if (context.eventName === 'workflow_dispatch' && context.payload.inputs?.pr_number) {
+              const { data: pr } = await github.rest.pulls.get({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: parseInt(context.payload.inputs.pr_number, 10),
+              });
+              addPr(pr);
+            } else {
+              const prs = await github.paginate(github.rest.pulls.list, {
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                state: 'open',
+                per_page: 100,
+              });
+              for (const pr of prs) {
+                if (pr.labels.some(l => l.name === 'auto-merge:operational')) {
+                  addPr(pr);
+                }
+              }
+            }
+
+            for (const candidate of candidates) {
+              core.startGroup(`PR #${candidate.number}: ${candidate.title}`);
+              try {
+                const { data: pr } = await github.rest.pulls.get({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  pull_number: candidate.number,
+                });
+
+                if (pr.state !== 'open' || pr.merged) {
+                  core.info('Not open or already merged — skip');
+                  continue;
+                }
+                if (!pr.labels.some(l => l.name === 'auto-merge:operational')) {
+                  core.info('Label auto-merge:operational not present — skip');
+                  continue;
+                }
+                if (pr.labels.some(l => l.name === 'auto-merge:hold')) {
+                  core.info('Label auto-merge:hold present — skip');
+                  continue;
+                }
+
+                const ageHours = (Date.now() - new Date(pr.created_at).getTime()) / 3600000;
+                if (ageHours < 24) {
+                  core.info(`Age ${ageHours.toFixed(1)}h — cooldown not yet elapsed`);
+                  continue;
+                }
+
+                const { data: comments } = await github.rest.issues.listComments({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: pr.number,
+                });
+                const holdComment = comments.find(c => /^\s*hold\s*$/im.test(c.body || ''));
+                if (holdComment) {
+                  core.info(`Hold comment by ${holdComment.user.login} — skip`);
+                  continue;
+                }
+
+                if (pr.mergeable === false || pr.mergeable_state === 'dirty') {
+                  core.info(`mergeable_state=${pr.mergeable_state} — skip`);
+                  continue;
+                }
+
+                core.info(`Merging PR #${pr.number}`);
+                await github.rest.pulls.merge({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  pull_number: pr.number,
+                  merge_method: 'squash',
+                  commit_title: `${pr.title} (#${pr.number})`,
+                  commit_message: 'Auto-merged after 24h cooldown — operational PR per PROTOCOL.md.\n\n' + (pr.body || '(no description)'),
+                });
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: pr.number,
+                  body: 'Auto-merged: 24h cooldown elapsed, no hold registered.',
+                });
+              } catch (e) {
+                core.error(`PR #${candidate.number}: ${e.message}`);
+              } finally {
+                core.endGroup();
+              }
+            }
