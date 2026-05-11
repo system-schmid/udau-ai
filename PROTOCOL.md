@@ -21,13 +21,13 @@ The local models (Ollama) were also broken from approximately **April 16 to May 
 | **Kess** | claude-sonnet-4-6 | $3 / $15 | Orchestrator, primary author. 1M context, extended thinking available. |
 | **Vera** | claude-haiku-4-5 | $1 / $5 | Fast strategic helper, sub-agent spawns. On trial at Haiku tier — see review date below. |
 | **Maren** | claude-opus-4-7 | $5 / $25 | Deep reasoning only. See escalation threshold below. |
-| **Pip** | qwen3.6:122b-a10b (local) | $0 | Principles, classification. Always hot — 122B is the de-facto resident model on the 96GB M3 Ultra during business hours. 35B was cold most of the time and caused eviction churn on every call. |
+| **Pip** | qwen3.5:122b-a10b (local) | $0 | Principles, classification. Always hot — 122B is the de-facto resident model on the 96GB M3 Ultra during business hours. 35B was cold most of the time and caused eviction churn on every call. |
 
 AGENTS.md may still reference older models. This document is authoritative until AGENTS.md catches up.
 
 ### Pip — model upgrade note
 
-Pip was moved from qwen3.6:35b to qwen3.6:122b-a10b on 2026-05-11. Rationale: on the 96GB M3 Ultra, the smart-heartbeat (every 30min, 08–22 CET) keeps 122B hot. 35B was cold during business hours, causing ~19s cold-load plus 122B eviction on every Pip call. Moving Pip to 122B eliminates the eviction churn and gives strictly better reasoning quality. The "small local tier" aesthetic was already broken when Kess moved to explicit Sonnet 4.6.
+Pip was moved from qwen3.6:35b to qwen3.5:122b-a10b on 2026-05-11. Rationale: on the 96GB M3 Ultra, the smart-heartbeat (every 30min, 08–22 CET) keeps 122B hot. 35B was cold during business hours, causing ~19s cold-load plus 122B eviction on every Pip call. Moving Pip to 122B eliminates the eviction churn and gives strictly better reasoning quality. The "small local tier" aesthetic was already broken when Kess moved to explicit Sonnet 4.6.
 
 ### Vera — Haiku trial
 
