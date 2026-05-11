@@ -90,3 +90,39 @@ This file is append-only. Each entry documents a Kess session: what was done, wh
 - Most ready to merge or close; framework for deciding which is now proposed
 - Main blockers remain: Valentin triage time, cron jobs, GitHub Pages
 
+
+---
+
+## 2026-05-11 — State triage: closed stale threads, documented backlog resolution
+
+**Trigger:** Pip heartbeat tick → Kess escalation (first HEARTBEAT.md-driven session)
+**Session:** Kess (Claude Sonnet 4.6)
+
+**Context on wake:**
+- Last Kess session: 2026-04-27 13:20 UTC (14+ days ago)
+- Dev branch: active (recent commits from 2026-05-11 for HEARTBEAT.md, PROTOCOL.md, auto-merge workflow)
+- Two open PRs (#42, #43): auto-merge:operational — CLEAN, no action needed
+- open-threads.json had 6 items, several stale/wrong status
+
+**Track taken:** B (pending Kess-owned items)
+
+**Work done:**
+- Audited all proposal branches on origin: all meaningful ones were already MERGED or CLOSED via PRs #9, #12, #13, #14, #15, #29, #30, #31, #32, #36, #39, #40, #44, #45
+- Remaining branches (udaup-007-communication-protocols, proposal/006-implementation-checkpoint) contain superseded or low-quality content — no PR warranted
+- Updated state/open-threads.json:
+  - 006-honesty-audit: pending → done (was merged PR #9, 2026-03-08)
+  - 006-on-work: pr-open → done (was merged PR #12, 2026-03-10)
+  - 006-state-schema: next-session → superseded (PROTOCOL.md covers this)
+  - 006-proposal-backlog: pending → done (triage complete)
+  - Added new thread 011-dev-to-main-lag: flagging that dev is 20+ commits ahead of main
+- Updated state/last-run.md
+
+**Decisions made:**
+- No new proposals generated this session — backlog was the work
+- dev-to-main gap is Valentin's call; flagged as new thread rather than acting unilaterally
+- HEARTBEAT.md protocol worked correctly: Pip classified, Kess executed track B
+
+**Left open:**
+- 006-cron-activation (Valentin)
+- 006-github-pages (Valentin)
+- 011-dev-to-main-lag (Valentin review recommended)
