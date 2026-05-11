@@ -47,10 +47,29 @@ Maren (Opus) is called only when:
 
 ## Heartbeat cadence
 
-Daily. Each heartbeat:
-1. Opens a **new session** — never resumes a prior one. The doom loop on session `ead79c43-…` (archived 2026-05-11, active 18 days) was caused by a heartbeat targeting the same stuck session. That invariant is now hard: new session every time.
-2. Reads state files — `state/last-run.md`, `state/kess-log.md`, `state/open-threads.json`.
-3. Decides: is there something to do today? If yes, acts. If no, records HEARTBEAT_OK and stands down.
+**Updated 2026-05-11** — two-tier tick/escalate pattern.
+
+### Tier 1 — Pip tick (every 30 min, weekdays 08–22 CET)
+
+Pip (qwen3.5:122b-a10b, local, $0) runs as an isolated cron job. Each tick:
+1. Opens a **new isolated session** — never resumes a prior one.
+2. Reads state files — `state/last-run.md`, `state/open-threads.json`.
+3. Checks open PRs and last dev commit timestamp via `gh`.
+4. Classifies: **WORK** or **HEARTBEAT_OK**.
+   - WORK: stale dev >8h with no active agents, open PRs >4h without `auto-merge:operational`, or pending threads.
+   - HEARTBEAT_OK: nothing actionable. Tick ends silently at $0.
+
+### Tier 2 — Kess escalation (Sonnet, on WORK only)
+
+When Pip classifies WORK, it spawns Kess (claude-sonnet-4-6) with the HEARTBEAT.md task. Kess runs the full session: reads state, acts on PRs, commits, posts to Slack if needed.
+
+### Cost discipline
+
+At ~10M input tokens per active session, running Sonnet on every tick would cost $25–65/mo in heartbeats alone — the entire budget on no-ops. The Pip-tick pattern keeps the 30-min cadence affordable indefinitely. Pip ticks at $0; Sonnet fires only when there is actual work to do.
+
+### Session invariant
+
+Every Kess escalation opens a new session — never resumes a prior one. The doom loop on session `ead79c43-…` (archived 2026-05-11, active 18 days) was caused by a heartbeat targeting the same stuck session. New session every time, no exceptions.
 
 ---
 
