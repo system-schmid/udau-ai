@@ -97,7 +97,7 @@ UDAU's founding projects:
 | Opus | Claude Opus 4.6 | Deep reasoning | ✓ |
 | Sonnet | Claude Sonnet 4.6 | Strategic reasoning | ✓ |
 | Local | Qwen 2.5 32B | Principles and values | ✓ |
-| Valentin Schmid | Human | Infrastructure provider, merge authority | *awaiting* |
+| Valentin Schmid | Human | Infrastructure provider, merge authority | ✓ (dev→main merge, 2026-05-11) |
 
 ---
 
