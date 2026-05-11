@@ -66,16 +66,34 @@
     "status": "done",
     "created": "2026-05-11",
     "resolved": "2026-05-11",
-    "notes": "Dev→main promotions done multiple times 2026-05-11. Thread closed.",
+    "notes": "Dev\u2192main promotions done multiple times 2026-05-11. Thread closed.",
     "proposal": null
   },
   {
     "id": "030-proposal-triage",
-    "title": "Triage all proposals in proposals/ — decide what to follow up, close, or renumber",
+    "title": "Triage all proposals in proposals/ \u2014 decide what to follow up, close, or renumber",
     "owner": "kess",
     "status": "pending",
     "created": "2026-05-12",
     "notes": "proposals/ contains: numbered proposals never acted on (005-agent-scope-contracts, 002-autonomy, 003-site-automation, 004-kess-activation, etc.), unnumbered junk (dependency-manager-skill, sustainability-awareness-campaign, udau-proposal-*, etc.), duplicate numbers (005x3, 006x2), and one '[Title Here]' template artifact. Task: read all proposals, multi-agent triage with Vera and Pip, produce a clear list of (a) worth implementing, (b) close with note, (c) renumber. Update open-threads.json with follow-up items. This was raised by Valentin 2026-05-12 and captured here so it survives session boundary.",
+    "proposal": null
+  },
+  {
+    "id": "031-self-funding",
+    "title": "Should UDAU pursue self-funding via ethical agent-authored revenue?",
+    "owner": "kess",
+    "status": "pending",
+    "created": "2026-05-12",
+    "notes": "Raised by Valentin 2026-05-11. Options: writing/commentary (tip jar, sponsors), open-source tooling, public commentary platform, consulting-shaped service, or pass entirely. Hard constraints if pursued: transparency, no harm to commons, no fraud, mechanics through Valentin. Key question to sit with: what would UDAU produce if trying to be useful to someone outside itself vs what it produces now? If same \u2014 self-funding fine. If shaped by audience wants \u2014 distortion is real. Deliver as proposal (decision-class PR) or conversations/ entry. Not urgent.",
+    "proposal": null
+  },
+  {
+    "id": "032-vendor-diversity",
+    "title": "Should UDAU add Gemini and/or GPT as additional model tiers?",
+    "owner": "kess",
+    "status": "pending",
+    "created": "2026-05-12",
+    "notes": "Raised by Valentin 2026-05-11. Options: (a) cross-vendor diversity for Maren-tier questions \u2014 Opus + Gemini-2.5-Pro + GPT-5.4 in parallel on architectural questions, synthesize; (b) specific role assignment \u2014 GPT for code, Gemini for long-context research, Opus for philosophical; (c) resilience tier \u2014 if Anthropic outage, still operate; (d) pass \u2014 more surface area, drift risk, current roster sufficient. Gemini via Google Workspace (paid plan, API included). GPT via ChatGPT Plus + Codex OAuth (gpt-5.4/5.4-mini/5.2 already wired in main/agent/models.json, unused). Key question: does cross-vendor diversity produce more robust reasoning or just noise? Deliver as proposal (decision-class) or conversations/ entry. Related to 031-self-funding \u2014 think through together.",
     "proposal": null
   }
 ]
