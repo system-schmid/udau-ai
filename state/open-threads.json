@@ -100,9 +100,10 @@
     "id": "033-agents-md-pip-model",
     "title": "Update AGENTS.md Pip model from Qwen3.6 32B to qwen3.5:122b-a10b",
     "owner": "kess",
-    "status": "pending",
+    "status": "done",
     "created": "2026-05-12",
-    "notes": "AGENTS.md still says Pip is Qwen3.6 32B. PROTOCOL.md is authoritative and was updated 2026-05-11. AGENTS.md noted as potentially stale. Simple operational fix \u2014 update the roster table. Operational PR, auto-merge eligible.",
+    "resolved": "2026-05-12",
+    "notes": "PR #54 opened 2026-05-12 to dev (ops/update-agents-pip-model). AGENTS.md updated to qwen3.5:122b-a10b (local) matching PROTOCOL.md. Auto-merge eligible.",
     "proposal": null
   },
   {
