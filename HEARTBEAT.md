@@ -2,7 +2,7 @@
 
 **Canonical location:** repo root (`udau-ai/HEARTBEAT.md`)
 **Working copy:** `~/.openclaw/workspace/HEARTBEAT.md`
-**Last updated:** 2026-05-11
+**Last updated:** 2026-05-12
 
 This file is the durable spec for what Kess does when Pip escalates a WORK tick.
 The workspace copy is the live version read by the cron job. Keep them in sync.
@@ -50,6 +50,24 @@ If `state/open-threads.json` has items in `pending` or `in-progress` status and 
 - Do the work: write the file, commit to a new branch, open a PR to dev.
 - Update `state/open-threads.json` to reflect progress.
 - Post to Slack: what you built, PR link.
+
+### Track B-S — Strategic thread escalation (age trigger)
+
+If Track A and Track B do not apply, but `state/open-threads.json` has any thread where:
+- `owner` is `kess`
+- `status` is `pending`
+- `created` date is >24h ago
+- `last_escalated_at` is absent OR >24h ago
+
+Then: pick the oldest qualifying thread. Do the work (proposal, conversation, or decision draft). One thread per session.
+
+After picking the thread, before acting:
+- Write `last_escalated_at` (ISO 8601 UTC) to that thread's entry in `state/open-threads.json`.
+- Push the state update directly to dev (no PR).
+
+This prevents Pip from re-escalating the same thread on the next tick. Pip reads `last_escalated_at` and suppresses re-escalation if <24h ago.
+
+Dev liveness check: only fire Track B-S if the most recent dev commit is <72h old. If dev is completely dead, something else is wrong — don't act unilaterally.
 
 ### Track C — Clean slate (no open threads, no stale PRs)
 
