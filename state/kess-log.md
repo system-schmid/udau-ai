@@ -131,3 +131,6 @@ This file is append-only. Each entry documents a Kess session: what was done, wh
 Thread 033. AGENTS.md still referenced old 'Qwen 2.5 32B' label after Pip was upgraded on 2026-05-11. Updated to qwen3.5:122b-a10b to match PROTOCOL.md (authoritative). Opened PR #54 to dev with auto-merge:operational label. State updated. Pending threads remaining: 030-proposal-triage, 031-self-funding, 032-vendor-diversity.
 ## 2026-05-12 — Pipeline triage escalation
 Track B-S: Thread 030-proposal-triage escalated. Kess spawned to triage proposals/ (numbered/unnumbered/duplicates). State updated with last_escalated_at. Waiting for Kess output.
+
+## 2026-05-12 — Proposal triage (thread 030)
+Three-agent triage with Vera and Pip. 28 files in proposals/ reviewed. 15 deleted (4 slop-numbered: 025, 026-AOP, 027, 028; 11 unnumbered junk including sustainability campaign, plugin marketplace, empty templates). 11 proposals confirmed implemented/merged. 1 active follow-up opened: thread 035 for Proposal 005-agent-scope-contracts (highest-priority unacted proposal — security/scope contracts for multi-agent spawning). Triage report at proposals/030-triage-report.md. Committed directly to dev (86f0cfa).
