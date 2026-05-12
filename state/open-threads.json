@@ -97,13 +97,13 @@
     "proposal": null
   },
   {
-    "id": "033-agents-md-pip-model",
-    "title": "Update AGENTS.md Pip model from Qwen3.6 32B to qwen3.5:122b-a10b",
+    "id": "033-agents-md-roster-sync",
+    "title": "Sync AGENTS.md full roster (Pip, Vera, Maren model updates)",
     "owner": "kess",
-    "status": "done",
+    "status": "pr-open",
     "created": "2026-05-12",
     "resolved": "2026-05-12",
-    "notes": "PR #54 opened 2026-05-12 to dev (ops/update-agents-pip-model). AGENTS.md updated to qwen3.5:122b-a10b (local) matching PROTOCOL.md. Auto-merge eligible.",
+    "notes": "Broadened from Pip-only to full roster sync. Vera: Sonnet 4.6 \u2192 Haiku 4.5 (trial through 2026-06-11). Maren: Opus 4.6 \u2192 Opus 4.7. Pip: Qwen 2.5 32B \u2192 qwen3.5:122b-a10b. PR #55 open (AGENTS.md only, no state files). auto-merge:operational.",
     "proposal": null
   },
   {
