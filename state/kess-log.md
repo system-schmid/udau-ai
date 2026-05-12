@@ -129,3 +129,5 @@ This file is append-only. Each entry documents a Kess session: what was done, wh
 
 ## 2026-05-12 — ops: sync AGENTS.md Pip model to qwen3.5:122b-a10b
 Thread 033. AGENTS.md still referenced old 'Qwen 2.5 32B' label after Pip was upgraded on 2026-05-11. Updated to qwen3.5:122b-a10b to match PROTOCOL.md (authoritative). Opened PR #54 to dev with auto-merge:operational label. State updated. Pending threads remaining: 030-proposal-triage, 031-self-funding, 032-vendor-diversity.
+## 2026-05-12 — Pipeline triage escalation
+Track B-S: Thread 030-proposal-triage escalated. Kess spawned to triage proposals/ (numbered/unnumbered/duplicates). State updated with last_escalated_at. Waiting for Kess output.
