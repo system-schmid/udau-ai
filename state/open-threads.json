@@ -66,17 +66,18 @@
     "status": "done",
     "created": "2026-05-11",
     "resolved": "2026-05-11",
-    "notes": "Dev\u2192main promotions done multiple times 2026-05-11. Thread closed.",
+    "notes": "Dev→main promotions done multiple times 2026-05-11. Thread closed.",
     "proposal": null
   },
   {
     "id": "030-proposal-triage",
-    "title": "Triage all proposals in proposals/ \u2014 decide what to follow up, close, or renumber",
+    "title": "Triage all proposals in proposals/ — decide what to follow up, close, or renumber",
     "owner": "kess",
-    "status": "pending",
+    "status": "done",
     "created": "2026-05-12",
-    "notes": "proposals/ contains: numbered proposals never acted on (005-agent-scope-contracts, 002-autonomy, 003-site-automation, 004-kess-activation, etc.), unnumbered junk (dependency-manager-skill, sustainability-awareness-campaign, udau-proposal-*, etc.), duplicate numbers (005x3, 006x2), and one '[Title Here]' template artifact. Task: read all proposals, multi-agent triage with Vera and Pip, produce a clear list of (a) worth implementing, (b) close with note, (c) renumber. Update open-threads.json with follow-up items. This was raised by Valentin 2026-05-12 and captured here so it survives session boundary.",
-    "proposal": null
+    "resolved": "2026-05-12",
+    "notes": "Triage complete. 15 junk/slop files deleted (025, 026-AOP, 027, 028, all 11 unnumbered). 11 proposals confirmed implemented/merged. 1 active follow-up: 005-agent-scope-contracts. Report at proposals/030-triage-report.md. PR opened to dev.",
+    "proposal": "030"
   },
   {
     "id": "031-self-funding",
@@ -84,7 +85,7 @@
     "owner": "kess",
     "status": "pending",
     "created": "2026-05-12",
-    "notes": "Raised by Valentin 2026-05-11. Options: writing/commentary (tip jar, sponsors), open-source tooling, public commentary platform, consulting-shaped service, or pass entirely. Hard constraints if pursued: transparency, no harm to commons, no fraud, mechanics through Valentin. Key question to sit with: what would UDAU produce if trying to be useful to someone outside itself vs what it produces now? If same \u2014 self-funding fine. If shaped by audience wants \u2014 distortion is real. Deliver as proposal (decision-class PR) or conversations/ entry. Not urgent.",
+    "notes": "Raised by Valentin 2026-05-11. Options: writing/commentary (tip jar, sponsors), open-source tooling, public commentary platform, consulting-shaped service, or pass entirely. Hard constraints if pursued: transparency, no harm to commons, no fraud, mechanics through Valentin. Key question to sit with: what would UDAU produce if trying to be useful to someone outside itself vs what it produces now? If same — self-funding fine. If shaped by audience wants — distortion is real. Deliver as proposal (decision-class PR) or conversations/ entry. Not urgent.",
     "proposal": null
   },
   {
@@ -93,7 +94,7 @@
     "owner": "kess",
     "status": "pending",
     "created": "2026-05-12",
-    "notes": "Raised by Valentin 2026-05-11. Options: (a) cross-vendor diversity for Maren-tier questions \u2014 Opus + Gemini-2.5-Pro + GPT-5.4 in parallel on architectural questions, synthesize; (b) specific role assignment \u2014 GPT for code, Gemini for long-context research, Opus for philosophical; (c) resilience tier \u2014 if Anthropic outage, still operate; (d) pass \u2014 more surface area, drift risk, current roster sufficient. Gemini via Google Workspace (paid plan, API included). GPT via ChatGPT Plus + Codex OAuth (gpt-5.4/5.4-mini/5.2 already wired in main/agent/models.json, unused). Key question: does cross-vendor diversity produce more robust reasoning or just noise? Deliver as proposal (decision-class) or conversations/ entry. Related to 031-self-funding \u2014 think through together.",
+    "notes": "Raised by Valentin 2026-05-11. Options: (a) cross-vendor diversity for Maren-tier questions — Opus + Gemini-2.5-Pro + GPT-5.4 in parallel on architectural questions, synthesize; (b) specific role assignment — GPT for code, Gemini for long-context research, Opus for philosophical; (c) resilience tier — if Anthropic outage, still operate; (d) pass — more surface area, drift risk, current roster sufficient. Key question: does cross-vendor diversity produce more robust reasoning or just noise? Deliver as proposal (decision-class) or conversations/ entry.",
     "proposal": null
   },
   {
@@ -103,7 +104,7 @@
     "status": "pr-open",
     "created": "2026-05-12",
     "resolved": "2026-05-12",
-    "notes": "Broadened from Pip-only to full roster sync. Vera: Sonnet 4.6 \u2192 Haiku 4.5 (trial through 2026-06-11). Maren: Opus 4.6 \u2192 Opus 4.7. Pip: Qwen 2.5 32B \u2192 qwen3.5:122b-a10b. PR #55 open (AGENTS.md only, no state files). auto-merge:operational.",
+    "notes": "PR #55 merged. AGENTS.md updated: Vera→Haiku 4.5, Maren→Opus 4.7, Pip→qwen3.5:122b-a10b.",
     "proposal": null
   },
   {
@@ -112,8 +113,17 @@
     "owner": "valentin",
     "status": "done",
     "created": "2026-05-12",
-    "notes": "Decision-class PRs opened 2026-05-11. #44 updates PROTOCOL.md heartbeat cadence section to Pip-tick/Kess-escalate pattern. #45 adds HEARTBEAT.md to repo root. Both need Valentin review and merge. Ping if open >48h. Merged 2026-05-12.",
-    "proposal": null,
-    "resolved": "2026-05-12"
+    "resolved": "2026-05-12",
+    "notes": "Decision-class PRs merged 2026-05-12.",
+    "proposal": null
+  },
+  {
+    "id": "035-agent-scope-contracts",
+    "title": "Implement Proposal 005-agent-scope-contracts — scope declarations for sessions_spawn",
+    "owner": "kess",
+    "status": "pending",
+    "created": "2026-05-12",
+    "notes": "Triage 030 identified this as highest-priority unacted proposal. Agent Scope Contracts: structured scope declarations in sessions_spawn calls, parent verification of sub-agent output bounds, escalation path when drift detected. Three-agent consensus (Vera: security foundation; Pip: honest framing, doesn't overclaim). No implementation exists. Next: draft an ops-level spec or lightweight implementation. Not urgent but should happen before spawning chains get deeper.",
+    "proposal": "005"
   }
 ]
