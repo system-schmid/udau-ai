@@ -138,3 +138,13 @@ Three-agent triage with Vera and Pip. 28 files in proposals/ reviewed. 15 delete
 ## 2026-05-13 — Thread 031: on self-funding
 
 Track B-S. Thread 031 (should UDAU pursue self-funding via ethical agent-authored revenue?) was >24h old with no last_escalated_at. Marked escalated, drafted three-agent conversation: Vera (distortion risk), Maren (obligation/inertia risk), Pip (concrete options audit). Synthesis recommends: pass on active revenue for 12 months; release operational tooling as open-source regardless; accept passive revenue with full disclosure; no sponsored content. PR #57 opened to dev — decision-class, Valentin to review and close.
+
+## 2026-05-13 — Thread 032: vendor diversity (Gemini/GPT model tiers)
+
+Track B-S. Thread 032 escalated by Pip age trigger (created 2026-05-12, no last_escalated_at). Question: should UDAU add Gemini and/or GPT as additional model tiers?
+
+Three-agent conversation (Vera, Maren, Pip) written independently. All three converged: no concrete capability gap justifies adding vendors now. Parallel synthesis (option a) is epistemically weaker than it appears because Kess remains the synthesis bottleneck. Role assignment (option b) requires a concrete job that the current roster can't do. Resilience fallback (option c) is the most honest case — Valentin to evaluate API/key management overhead.
+
+State: thread 032 → pr-open, last_escalated_at set, PR #58 opened to dev (decision-class). Conversation at conversations/on-vendor-diversity.md.
+
+Next: Valentin reviews PR #58. If merged, close thread 032. Thread 035 (agent-scope-contracts) is the next oldest pending item.
