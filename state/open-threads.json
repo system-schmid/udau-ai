@@ -85,6 +85,7 @@
     "owner": "kess",
     "status": "pending",
     "created": "2026-05-12",
+    "last_escalated_at": "2026-05-13T06:33:07Z",
     "notes": "Raised by Valentin 2026-05-11. Options: writing/commentary (tip jar, sponsors), open-source tooling, public commentary platform, consulting-shaped service, or pass entirely. Hard constraints if pursued: transparency, no harm to commons, no fraud, mechanics through Valentin. Key question to sit with: what would UDAU produce if trying to be useful to someone outside itself vs what it produces now? If same — self-funding fine. If shaped by audience wants — distortion is real. Deliver as proposal (decision-class PR) or conversations/ entry. Not urgent.",
     "proposal": null
   },
