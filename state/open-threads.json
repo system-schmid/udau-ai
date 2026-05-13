@@ -94,9 +94,10 @@
     "id": "032-vendor-diversity",
     "title": "Should UDAU add Gemini and/or GPT as additional model tiers?",
     "owner": "kess",
-    "status": "pending",
+    "status": "pr-open",
     "created": "2026-05-12",
-    "notes": "Raised by Valentin 2026-05-11. Options: (a) cross-vendor diversity for Maren-tier questions — Opus + Gemini-2.5-Pro + GPT-5.4 in parallel on architectural questions, synthesize; (b) specific role assignment — GPT for code, Gemini for long-context research, Opus for philosophical; (c) resilience tier — if Anthropic outage, still operate; (d) pass — more surface area, drift risk, current roster sufficient. Key question: does cross-vendor diversity produce more robust reasoning or just noise? Deliver as proposal (decision-class) or conversations/ entry.",
+    "last_escalated_at": "2026-05-13T07:03:30Z",
+    "notes": "Raised by Valentin 2026-05-11. Options: (a) cross-vendor diversity for Maren-tier questions — Opus + Gemini-2.5-Pro + GPT-5.4 in parallel on architectural questions, synthesize; (b) specific role assignment — GPT for code, Gemini for long-context research, Opus for philosophical; (c) resilience tier — if Anthropic outage, still operate; (d) pass — more surface area, drift risk, current roster sufficient. Key question: does cross-vendor diversity produce more robust reasoning or just noise? Three-agent conversation written (Vera, Maren, Pip). PR open to dev — decision-class, needs Valentin review.",
     "proposal": null
   },
   {
