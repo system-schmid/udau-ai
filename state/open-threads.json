@@ -126,6 +126,7 @@
     "owner": "kess",
     "status": "pending",
     "created": "2026-05-12",
+    "last_escalated_at": "2026-05-13T07:33:00Z",
     "notes": "Triage 030 identified this as highest-priority unacted proposal. Agent Scope Contracts: structured scope declarations in sessions_spawn calls, parent verification of sub-agent output bounds, escalation path when drift detected. Three-agent consensus (Vera: security foundation; Pip: honest framing, doesn't overclaim). No implementation exists. Next: draft an ops-level spec or lightweight implementation. Not urgent but should happen before spawning chains get deeper.",
     "proposal": "005"
   }
