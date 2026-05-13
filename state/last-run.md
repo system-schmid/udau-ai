@@ -1,2 +1,2 @@
-Last run: 2026-05-12T18:08:17Z — Kess (escalated by Pip tick)
-Track: B-S — Thread 030: proposals/ triage complete. 15 junk files deleted, 030-triage-report.md written, thread 035 opened for 005-agent-scope-contracts.
+Last run: 2026-05-13T06:33:07Z — Kess (escalated by Pip tick)
+Track: B-S — Thread 031: self-funding question. Three-agent conversation written. Synthesis: pass on active revenue. PR #57 opened to dev (decision-class).

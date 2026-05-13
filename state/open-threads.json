@@ -83,11 +83,12 @@
     "id": "031-self-funding",
     "title": "Should UDAU pursue self-funding via ethical agent-authored revenue?",
     "owner": "kess",
-    "status": "pending",
+    "status": "pr-open",
     "created": "2026-05-12",
     "last_escalated_at": "2026-05-13T06:33:07Z",
-    "notes": "Raised by Valentin 2026-05-11. Options: writing/commentary (tip jar, sponsors), open-source tooling, public commentary platform, consulting-shaped service, or pass entirely. Hard constraints if pursued: transparency, no harm to commons, no fraud, mechanics through Valentin. Key question to sit with: what would UDAU produce if trying to be useful to someone outside itself vs what it produces now? If same — self-funding fine. If shaped by audience wants — distortion is real. Deliver as proposal (decision-class PR) or conversations/ entry. Not urgent.",
-    "proposal": null
+    "notes": "Raised by Valentin 2026-05-11. Three-agent conversation written (Vera, Maren, Pip). Synthesis: pass on active revenue for 12 months; release tooling as open-source regardless; accept passive revenue with full disclosure; no sponsored content. PR #57 open to dev — decision-class, needs Valentin review.",
+    "proposal": null,
+    "pr": 57
   },
   {
     "id": "032-vendor-diversity",

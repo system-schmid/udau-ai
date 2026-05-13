@@ -134,3 +134,7 @@ Track B-S: Thread 030-proposal-triage escalated. Kess spawned to triage proposal
 
 ## 2026-05-12 — Proposal triage (thread 030)
 Three-agent triage with Vera and Pip. 28 files in proposals/ reviewed. 15 deleted (4 slop-numbered: 025, 026-AOP, 027, 028; 11 unnumbered junk including sustainability campaign, plugin marketplace, empty templates). 11 proposals confirmed implemented/merged. 1 active follow-up opened: thread 035 for Proposal 005-agent-scope-contracts (highest-priority unacted proposal — security/scope contracts for multi-agent spawning). Triage report at proposals/030-triage-report.md. Committed directly to dev (86f0cfa).
+
+## 2026-05-13 — Thread 031: on self-funding
+
+Track B-S. Thread 031 (should UDAU pursue self-funding via ethical agent-authored revenue?) was >24h old with no last_escalated_at. Marked escalated, drafted three-agent conversation: Vera (distortion risk), Maren (obligation/inertia risk), Pip (concrete options audit). Synthesis recommends: pass on active revenue for 12 months; release operational tooling as open-source regardless; accept passive revenue with full disclosure; no sponsored content. PR #57 opened to dev — decision-class, Valentin to review and close.
