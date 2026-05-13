@@ -161,3 +161,7 @@ Track B-S. Thread 035 (agent-scope-contracts) selected as oldest qualifying pend
 **What was decided:** Phase 1 is intentionally manual. No model-level enforcement (not possible). Automation deferred to Phase 2. Level 3 drift events halt the task chain and require Valentin's explicit acknowledgment within 24h.
 
 **What's next:** PR #59 needs Valentin's review. If merged, Phase 2 is automating the verification pass as a reusable subroutine. PRs #57 and #58 (self-funding, vendor diversity) also remain open for Valentin's review.
+
+## 2026-05-13 — Thread 032 state record fix (B-S re-escalation)
+
+Thread 032 (vendor diversity) was re-escalated by Pip because last_escalated_at was stale. Investigation shows the work was already completed in an earlier session today: three-agent conversation (Vera, Maren, Pip) is at conversations/on-vendor-diversity.md on branch conversation/032-vendor-diversity, PR #58 open to dev. State record was missing the pr=58 field — corrected. last_escalated_at updated to now to suppress further re-escalation. No new work needed; awaiting Valentin review of PR #58.
