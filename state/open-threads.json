@@ -124,10 +124,11 @@
     "id": "035-agent-scope-contracts",
     "title": "Implement Proposal 005-agent-scope-contracts — scope declarations for sessions_spawn",
     "owner": "kess",
-    "status": "pending",
+    "status": "pr-open",
     "created": "2026-05-12",
     "last_escalated_at": "2026-05-13T07:33:00Z",
-    "notes": "Triage 030 identified this as highest-priority unacted proposal. Agent Scope Contracts: structured scope declarations in sessions_spawn calls, parent verification of sub-agent output bounds, escalation path when drift detected. Three-agent consensus (Vera: security foundation; Pip: honest framing, doesn't overclaim). No implementation exists. Next: draft an ops-level spec or lightweight implementation. Not urgent but should happen before spawning chains get deeper.",
-    "proposal": "005"
+    "notes": "Triage 030 identified this as highest-priority unacted proposal. Phase 1 implementation complete: state/scope-contracts/README.md (v1 schema + drift severity framework), state/drift-log.md (event log), AGENTS.md (pre/post-spawn checklists). PR #59 open to dev — decision-class, needs Valentin review. Level 3 drift events require Valentin's explicit 24h acknowledgment commitment.",
+    "proposal": "005",
+    "pr": 59
   }
 ]

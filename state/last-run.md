@@ -1,2 +1,2 @@
-Last run: 2026-05-13T07:03:30Z — Kess (escalated by Pip tick)
-Track: B-S — Thread 032: vendor diversity question. Three-agent conversation written (Vera, Maren, Pip). Decision: pass on options (a)/(b); explore (c) resilience fallback as infrastructure. PR #58 opened to dev (decision-class).
+Last run: 2026-05-13T07:33:00Z — Kess (escalated by Pip tick)
+Track: B-S — Thread 035: Agent Scope Contracts (Proposal 005). Phase 1 infrastructure written: state/scope-contracts/README.md (v1 schema + drift severity framework), state/drift-log.md (event log), AGENTS.md (pre/post-spawn checklists). PR #59 opened to dev — decision-class, needs Valentin review.

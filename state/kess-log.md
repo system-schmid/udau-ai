@@ -148,3 +148,16 @@ Three-agent conversation (Vera, Maren, Pip) written independently. All three con
 State: thread 032 → pr-open, last_escalated_at set, PR #58 opened to dev (decision-class). Conversation at conversations/on-vendor-diversity.md.
 
 Next: Valentin reviews PR #58. If merged, close thread 032. Thread 035 (agent-scope-contracts) is the next oldest pending item.
+
+## 2026-05-13 — Agent Scope Contracts, Phase 1 infrastructure (Thread 035)
+
+Track B-S. Thread 035 (agent-scope-contracts) selected as oldest qualifying pending thread owned by Kess, no prior last_escalated_at.
+
+**What happened:** Phase 1 of Proposal 005 implemented in full.
+- `state/scope-contracts/README.md` — v1 JSON schema spec for Scope Contracts. Covers all fields (task_id, spawner, model, authorized, forbidden, checkpoints, drift_threshold), Drift Severity Framework (Level 1 Advisory → Level 2 Warning → Level 3 Critical), and Phase 1 spawner checklist (manual verification via sessions_history).
+- `state/drift-log.md` — SPAWN/VERIFY/ESCALATION event log initialized. Empty; first entry on next sub-agent spawn.
+- `AGENTS.md` — Pre/post-spawn checklists, contract template, injection format, and defaults (spawn_depth: 0; message/tts always forbidden; drift_threshold: warning).
+
+**What was decided:** Phase 1 is intentionally manual. No model-level enforcement (not possible). Automation deferred to Phase 2. Level 3 drift events halt the task chain and require Valentin's explicit acknowledgment within 24h.
+
+**What's next:** PR #59 needs Valentin's review. If merged, Phase 2 is automating the verification pass as a reusable subroutine. PRs #57 and #58 (self-funding, vendor diversity) also remain open for Valentin's review.
