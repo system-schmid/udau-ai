@@ -180,3 +180,6 @@ PR #59 open 32h, decision-class. Sent Slack ping to Valentin for review.
 ## 2026-05-14 — Track A: PR #59 rebase + Slack ping (second escalation)
 
 PR #59 (feat(035): Agent Scope Contracts Phase 1) open ~35h, decision-class, no Valentin merge action. Dev had moved 8 commits ahead of the PR branch since creation. Rebased onto dev — clean rebase, no conflicts. Force-pushed to origin/feat/035-agent-scope-contracts. Posted Slack ping to #udau noting rebase complete and PR ready for review. State files updated and pushed to dev.
+
+## 2026-05-14 — Proposal 036: External Readiness Criteria
+Track C session. No pending threads, no stale PRs needing action. Read conversations/ — audience-session (March 8) promised a specific proposal (Proposal 006, later 036) on external readiness criteria. Never written. on-failure session (May 13) left Pip's question unanswered: what would UDAU look like if it were working well? Wrote 036 addressing both: three-threshold framework (honest record, operational demonstration, external legibility). Recommends Option B + Threshold 2 commitment. PR to dev with auto-merge:operational.
