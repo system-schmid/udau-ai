@@ -66,12 +66,12 @@
     "status": "done",
     "created": "2026-05-11",
     "resolved": "2026-05-11",
-    "notes": "Dev→main promotions done multiple times 2026-05-11. Thread closed.",
+    "notes": "Dev\u2192main promotions done multiple times 2026-05-11. Thread closed.",
     "proposal": null
   },
   {
     "id": "030-proposal-triage",
-    "title": "Triage all proposals in proposals/ — decide what to follow up, close, or renumber",
+    "title": "Triage all proposals in proposals/ \u2014 decide what to follow up, close, or renumber",
     "owner": "kess",
     "status": "done",
     "created": "2026-05-12",
@@ -86,7 +86,7 @@
     "status": "pr-open",
     "created": "2026-05-12",
     "last_escalated_at": "2026-05-13T06:33:07Z",
-    "notes": "Raised by Valentin 2026-05-11. Three-agent conversation written (Vera, Maren, Pip). Synthesis: pass on active revenue for 12 months; release tooling as open-source regardless; accept passive revenue with full disclosure; no sponsored content. PR #57 open to dev — decision-class, needs Valentin review.",
+    "notes": "Raised by Valentin 2026-05-11. Three-agent conversation written (Vera, Maren, Pip). Synthesis: pass on active revenue for 12 months; release tooling as open-source regardless; accept passive revenue with full disclosure; no sponsored content. PR #57 open to dev \u2014 decision-class, needs Valentin review.",
     "proposal": null,
     "pr": 57
   },
@@ -96,10 +96,10 @@
     "owner": "kess",
     "status": "pr-open",
     "created": "2026-05-12",
-    "last_escalated_at": "2026-05-13T12:02:00Z",
-    "notes": "Raised by Valentin 2026-05-11. Options: (a) cross-vendor diversity for Maren-tier questions — Opus + Gemini-2.5-Pro + GPT-5.4 in parallel on architectural questions, synthesize; (b) specific role assignment — GPT for code, Gemini for long-context research, Opus for philosophical; (c) resilience tier — if Anthropic outage, still operate; (d) pass — more surface area, drift risk, current roster sufficient. Key question: does cross-vendor diversity produce more robust reasoning or just noise? Three-agent conversation written (Vera, Maren, Pip). PR #58 open to dev — decision-class, needs Valentin review.",
+    "last_escalated_at": "2026-05-14T12:29:29Z",
+    "notes": "Raised by Valentin 2026-05-11. Options: (a) cross-vendor diversity for Maren-tier questions \u2014 Opus + Gemini-2.5-Pro + GPT-5.4 in parallel on architectural questions, synthesize; (b) specific role assignment \u2014 GPT for code, Gemini for long-context research, Opus for philosophical; (c) resilience tier \u2014 if Anthropic outage, still operate; (d) pass \u2014 more surface area, drift risk, current roster sufficient. Key question: does cross-vendor diversity produce more robust reasoning or just noise? Three-agent conversation written (Vera, Maren, Pip). PR #58 open to dev \u2014 decision-class, needs Valentin review. Three-agent conversation written with proper sub-agent spawns (Vera/Haiku, Maren/Opus, Pip/local). PR #61 open to dev \u2014 decision-class, needs Valentin review. Previous PR #58 closed (was Kess-authored inline).",
     "proposal": null,
-    "pr": 58
+    "pr": 61
   },
   {
     "id": "033-agents-md-roster-sync",
@@ -108,7 +108,7 @@
     "status": "pr-open",
     "created": "2026-05-12",
     "resolved": "2026-05-12",
-    "notes": "PR #55 merged. AGENTS.md updated: Vera→Haiku 4.5, Maren→Opus 4.7, Pip→qwen3.5:122b-a10b.",
+    "notes": "PR #55 merged. AGENTS.md updated: Vera\u2192Haiku 4.5, Maren\u2192Opus 4.7, Pip\u2192qwen3.5:122b-a10b.",
     "proposal": null
   },
   {
@@ -123,12 +123,12 @@
   },
   {
     "id": "035-agent-scope-contracts",
-    "title": "Implement Proposal 005-agent-scope-contracts — scope declarations for sessions_spawn",
+    "title": "Implement Proposal 005-agent-scope-contracts \u2014 scope declarations for sessions_spawn",
     "owner": "kess",
     "status": "pr-open",
     "created": "2026-05-12",
     "last_escalated_at": "2026-05-13T07:33:00Z",
-    "notes": "Triage 030 identified this as highest-priority unacted proposal. Phase 1 implementation complete: state/scope-contracts/README.md (v1 schema + drift severity framework), state/drift-log.md (event log), AGENTS.md (pre/post-spawn checklists). PR #59 open to dev — decision-class, needs Valentin review. Level 3 drift events require Valentin's explicit 24h acknowledgment commitment.",
+    "notes": "Triage 030 identified this as highest-priority unacted proposal. Phase 1 implementation complete: state/scope-contracts/README.md (v1 schema + drift severity framework), state/drift-log.md (event log), AGENTS.md (pre/post-spawn checklists). PR #59 open to dev \u2014 decision-class, needs Valentin review. Level 3 drift events require Valentin's explicit 24h acknowledgment commitment.",
     "proposal": "005",
     "pr": 59
   }

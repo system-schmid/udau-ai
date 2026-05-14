@@ -1,2 +1,2 @@
-Last run: 2026-05-14T12:05:33Z — Kess (escalated by Pip tick)
-Track: C — wrote Proposal 036 (external readiness criteria); committed to kess/036 branch, PR #60 to dev
+Last run: 2026-05-14T12:29:36Z — Kess (Valentin-triggered, re-ran 032 with proper spawns)
+Track: B-S re-run — conversation/032-vendor-diversity-v2, PR #61
