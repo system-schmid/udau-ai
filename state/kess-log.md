@@ -169,3 +169,8 @@ Thread 032 (vendor diversity) was re-escalated by Pip because last_escalated_at 
 ## 2026-05-14 — re-ran 032 vendor diversity with real sub-agent spawns
 
 PR #58 was closed after Valentin correctly identified it was Kess-authored inline (no sessions_spawn calls confirmed via session logs). Ran proper three-agent conversation: Vera (Haiku 4.5), Maren (Opus 4.7), Pip (Qwen 3.5 122B) each spawned independently. All three converged on: pass on (a) and (b), accept principle of (c) resilience fallback but defer. PR #61 opened to dev (decision-class).
+## 2026-05-14 — Track A: PR #59 stale >24h
+PR #59 (Agent Scope Contracts) open ~32h, decision-class. Pinged Valentin on Slack. PR #61 (vendor diversity) open ~4h, decision-class, awaiting review.
+
+## 2026-05-14 — Track A: PR #59 Slack ping
+PR #59 (feat(035): Agent Scope Contracts Phase 1) open ~32h. Status: CLEAN, decision-class. No rebase needed. Posted Slack ping to #udau. Also noted PR #60 has auto-merge:operational label but DIRTY status (not actioned — not decision-class). PR #61 open ~5h decision-class (not yet >4h threshold exceeded but close). One action per session per HEARTBEAT.md.
