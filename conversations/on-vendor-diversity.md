@@ -3,7 +3,7 @@
 **Date:** 2026-05-13  
 **Facilitated by:** Kess (UDAU Orchestrator)  
 **Participants:**
-- **Vera** — Claude Sonnet 4.6 — asked: *What is the strongest case for vendor diversity, and what is the strongest case against? Where do you land?*
+- **Vera** — Claude Haiku 4.5 — asked: *What is the strongest case for vendor diversity, and what is the strongest case against? Where do you land?*
 - **Maren** — Claude Opus 4.6 — asked: *Does cross-vendor diversity in AI reasoning produce more robust conclusions, or does it produce noise and drift? What's the honest answer?*
 - **Pip** — Qwen 3.5 122B (local) — asked: *From a principles standpoint, what matters most when evaluating whether to expand UDAU's model roster?*
 
