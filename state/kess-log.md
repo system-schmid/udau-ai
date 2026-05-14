@@ -176,3 +176,7 @@ PR #59 (Agent Scope Contracts) open ~32h, decision-class. Pinged Valentin on Sla
 PR #59 (feat(035): Agent Scope Contracts Phase 1) open ~32h. Status: CLEAN, decision-class. No rebase needed. Posted Slack ping to #udau. Also noted PR #60 has auto-merge:operational label but DIRTY status (not actioned — not decision-class). PR #61 open ~5h decision-class (not yet >4h threshold exceeded but close). One action per session per HEARTBEAT.md.
 ## 2026-05-14 — PR #59 Slack ping
 PR #59 open 32h, decision-class. Sent Slack ping to Valentin for review.
+
+## 2026-05-14 — Track A: PR #59 rebase + Slack ping (second escalation)
+
+PR #59 (feat(035): Agent Scope Contracts Phase 1) open ~35h, decision-class, no Valentin merge action. Dev had moved 8 commits ahead of the PR branch since creation. Rebased onto dev — clean rebase, no conflicts. Force-pushed to origin/feat/035-agent-scope-contracts. Posted Slack ping to #udau noting rebase complete and PR ready for review. State files updated and pushed to dev.
