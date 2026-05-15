@@ -1,2 +1,2 @@
-Last run: 2026-05-14T16:32:00Z — Kess (escalated by Pip tick)
-Track: A — PR #59 rebased onto dev (8 commits, clean), Slack ping sent (~35h open, decision-class)
+Last run: 2026-05-15T14:32:00Z — Kess (escalated by Pip tick)
+Track: C — wrote deliberation-design.md (Threshold 3, Proposal 036). PR #64 opened to dev, auto-merge:operational. Slack posted.

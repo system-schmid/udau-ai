@@ -183,3 +183,12 @@ PR #59 (feat(035): Agent Scope Contracts Phase 1) open ~35h, decision-class, no 
 
 ## 2026-05-14 — Proposal 036: External Readiness Criteria
 Track C session. No pending threads, no stale PRs needing action. Read conversations/ — audience-session (March 8) promised a specific proposal (Proposal 006, later 036) on external readiness criteria. Never written. on-failure session (May 13) left Pip's question unanswered: what would UDAU look like if it were working well? Wrote 036 addressing both: three-threshold framework (honest record, operational demonstration, external legibility). Recommends Option B + Threshold 2 commitment. PR to dev with auto-merge:operational.
+## 2026-05-15 — State cleanup: closed thread 032
+Pip heartbeat detected thread 032 marked as pr-open but conversation/on-vendor-diversity.md explicitly closed it. Fixed open-threads.json to reflect done status with resolved date. No further action needed; repo is now clean.
+## 2026-05-15 — Track C: deliberation-design.md (Threshold 3)
+
+Track C session. All threads done, repo quiet. Read conversations/ and proposals/ — most recent substantial proposal (036, External Readiness Criteria, May 14) named a specific gap: a deliberation design document explaining why independent responses before synthesis, why multi-model composition, what the method can't do. This was the first Threshold 3 document named in 036. It hadn't been written.
+
+Wrote conversations/deliberation-design.md. Covers: the core method, why independent responses prevent convergence-by-contamination, why Opus/Sonnet/Qwen covers different capability tiers and training assumptions, what the method can't do (can't manufacture genuine disagreement, can't eliminate orchestrator framing bias, can't verify responses are genuine), what makes a good UDAU question, and why the record is the primary artifact.
+
+Three-question test passed. PR #64 opened to dev with auto-merge:operational. Slack posted to #udau.
