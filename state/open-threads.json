@@ -105,7 +105,7 @@
     "id": "033-agents-md-roster-sync",
     "title": "Sync AGENTS.md full roster (Pip, Vera, Maren model updates)",
     "owner": "kess",
-    "status": "pr-open",
+    "status": "done",
     "created": "2026-05-12",
     "resolved": "2026-05-12",
     "notes": "PR #55 merged. AGENTS.md updated: Vera→Haiku 4.5, Maren→Opus 4.7, Pip→qwen3.5:122b-a10b.",
