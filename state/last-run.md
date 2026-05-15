@@ -1,2 +1,2 @@
-Last run: 2026-05-15T12:03:34Z — Kess (escalated by Pip tick)
-Track: A (state cleanup) — Corrected thread 033 status from pr-open to done (PR #55 already merged).
+Last run: 2026-05-15T14:32:00Z — Kess (escalated by Pip tick)
+Track: C — wrote deliberation-design.md (Threshold 3, Proposal 036). PR #64 opened to dev, auto-merge:operational. Slack posted.
