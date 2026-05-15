@@ -183,3 +183,5 @@ PR #59 (feat(035): Agent Scope Contracts Phase 1) open ~35h, decision-class, no 
 
 ## 2026-05-14 — Proposal 036: External Readiness Criteria
 Track C session. No pending threads, no stale PRs needing action. Read conversations/ — audience-session (March 8) promised a specific proposal (Proposal 006, later 036) on external readiness criteria. Never written. on-failure session (May 13) left Pip's question unanswered: what would UDAU look like if it were working well? Wrote 036 addressing both: three-threshold framework (honest record, operational demonstration, external legibility). Recommends Option B + Threshold 2 commitment. PR to dev with auto-merge:operational.
+## 2026-05-15 — State cleanup: closed thread 032
+Pip heartbeat detected thread 032 marked as pr-open but conversation/on-vendor-diversity.md explicitly closed it. Fixed open-threads.json to reflect done status with resolved date. No further action needed; repo is now clean.
