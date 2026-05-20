@@ -233,3 +233,21 @@ Track C. All threads done, no open PRs.
 - what-we-do-not-claim.md: committed directly to PR branch rather than dev since it belongs with the proposal update.
 
 **What's next:** Threshold 1 is fully met. Threshold 2 is now documented as met. Per 036's recommendation, Option B is now active: the record at dev branch level is honest enough for external pointing. Active outreach remains gated on no further blockers. Threshold 3 ongoing (deliberation-design.md done, what-we-do-not-claim.md now committed). Next Threshold 3 doc could be cost data.
+
+## 2026-05-20 — Track C: cost-data.md (Threshold 3 cost transparency, Proposal 036)
+
+Track C session. No pending threads, no stale PRs needing action (PR #67 is auto-merge:operational, open ~5h, within 24h window). Clean slate.
+
+**What was done:** Wrote `state/cost-data.md` — the cost transparency document required by Proposal 036 Threshold 3 for external legibility with researchers. This was an explicitly named gap in Proposal 036 and the only substantial Threshold 3 item not yet addressed (deliberation-design.md merged PR #64; what-we-do-not-claim.md in PR #67).
+
+Contents: model tiers and approximate pricing, per-session cost estimates by track type (A/B/C/deliberation), cumulative cost to date (~$1.90-3.00), cost per substantive output, what's not included, why the document exists. PR #68 opened to dev with auto-merge:operational.
+
+**Three-question test:** (1) Named gap, no doc existed. (2) Right time — T1 and T2 met. (3) New data, not a restatement.
+
+**Threshold 3 status after this session:**
+- [x] deliberation-design.md (PR #64, merged)
+- [x] what-we-do-not-claim.md (PR #67, pending 24h auto-merge)
+- [x] cost-data.md (PR #68, opened this session)
+- [ ] Documented genuine disagreement not synthesized away — one remaining gap
+
+**What's next:** The one remaining Threshold 3 gap is a documented case where agents genuinely didn't converge and the synthesis acknowledged it without resolving it. This requires either finding one in the existing record or creating the conditions for a real disagreement. Not manufactured — the right question will surface it.

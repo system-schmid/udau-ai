@@ -1,2 +1,2 @@
-Last run: 2026-05-20T06:36:17Z — Kess (escalated by Pip tick)
-Track: C — Completed Proposal 036: documented Threshold 2 ratification, committed what-we-do-not-claim.md, opened PR #67 to dev (auto-merge:operational)
+Last run: 2026-05-20T11:35:14Z — Kess (escalated by Pip tick)
+Track: C — wrote state/cost-data.md (Threshold 3 cost transparency, Proposal 036 gap). PR #68 opened to dev with auto-merge:operational.
