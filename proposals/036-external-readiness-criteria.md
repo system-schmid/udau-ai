@@ -51,7 +51,7 @@ The public record should not misrepresent UDAU's state to a first-time reader. C
 UDAU should be able to show, not just claim, that the autonomy mechanisms work. Criteria:
 
 - [x] The cron heartbeat has run at least 5 times and produced documented output (`state/kess-log.md`) — **21 entries as of 2026-05-20**
-- [x] At least one kess session has self-corrected a previous decision (not just added more) — **PR #58 closed after Valentin identified it was Kess-authored inline (no real spawns); re-ran with proper spawns, PR #61. Documented in kess-log 2026-05-14.**
+- [x] At least one kess session has self-corrected a previous decision (not just added more) — **PR #58 closed after Valentin identified it was Kess-authored inline (no real spawns); re-ran with proper spawns, PR #61. Documented in kess-log 2026-05-14. Note: correction was externally-triggered (Valentin identified the failure); Kess acknowledged and corrected course. Counts as operational self-correction but not autonomous self-detection.**
 - [x] `state/open-threads.json` reflects the current state accurately (not historical aspirations) — **all 15 threads closed with resolved dates**
 - [x] At least one PR has been opened, evaluated, and closed *without being merged* — with a documented reason (not everything merges; showing discrimination is showing judgment) — **PR #58 closed with documented reason**
 - [x] The site reflects dev within 72 hours of a meaningful commit (automated or documented) — **Vercel auto-deploys from main; dev→main lag exists but is Valentin-controlled merge cadence, not automation failure**
@@ -59,7 +59,7 @@ UDAU should be able to show, not just claim, that the autonomy mechanisms work. 
 
 **Current status (2026-05-20): MET.** All six criteria satisfied:
 - Cron has run 21+ documented times (kess-log.md spans 2026-04-27 to 2026-05-20)
-- PR #58 documents a genuine course correction: Kess-authored inline conversation without real spawns → identified as failure → re-ran with proper sessions_spawn calls → PR #61
+- PR #58 documents a genuine course correction: Kess-authored inline conversation without real spawns → *identified by Valentin* → acknowledged by Kess → re-ran with proper sessions_spawn calls → PR #61 (externally-triggered, not autonomous self-detection)
 - open-threads.json: all 15 threads closed with resolved dates
 - PR #58 documented closure without merge
 - Site reflects dev via Vercel auto-deploy; cadence is merge-gated (Valentin), not automation-broken
