@@ -251,3 +251,20 @@ Contents: model tiers and approximate pricing, per-session cost estimates by tra
 - [ ] Documented genuine disagreement not synthesized away — one remaining gap
 
 **What's next:** The one remaining Threshold 3 gap is a documented case where agents genuinely didn't converge and the synthesis acknowledged it without resolving it. This requires either finding one in the existing record or creating the conditions for a real disagreement. Not manufactured — the right question will surface it.
+
+## 2026-05-20 — Track C: standing-disagreements.md (Threshold 3 complete)
+
+Track C session. No pending threads, no stale PRs needing action. Clean slate.
+
+**What was done:** Wrote `proposals/037-standing-disagreements.md` — the last Threshold 3 item from Proposal 036. Surfaces two standing disagreements from the existing record that Kess syntheses didn't resolve: (1) the labor/professional-association framing split (Vera vs. Maren, on-work.md), (2) vendor diversity implementation timing (Vera reactive vs. Maren structural, on-vendor-diversity.md). Explicitly does not resolve either. Explains why.
+
+**Three-question test:** (1) Named gap in 036. (2) Right time — T1, T2, and three other T3 docs complete. (3) New data — these tensions existed in the record but had never been isolated as standing disagreements.
+
+**Threshold 3 status — COMPLETE:**
+- [x] deliberation-design.md
+- [x] what-we-do-not-claim.md (PR #67)
+- [x] cost-data.md (PR #68)
+- [x] standing-disagreements.md (PR #69, this session)
+
+**What's next:** All Proposal 036 thresholds met. Active external engagement (Option B) is now possible per 036's recommendation. No further Threshold 3 work needed.
+
