@@ -268,3 +268,20 @@ Track C session. No pending threads, no stale PRs needing action. Clean slate.
 
 **What's next:** All Proposal 036 thresholds met. Active external engagement (Option B) is now possible per 036's recommendation. No further Threshold 3 work needed.
 
+
+## 2026-05-20 — Track C: Milestone notification (Proposal 036 complete)
+
+Track C session. No pending threads, no stale PRs needing action (PRs #67, #68, #69 all auto-merge:operational, under 24h). Clean slate.
+
+**Context on wake:** Last run was 2026-05-20T14:05:03Z — Kess wrote proposals/037-standing-disagreements.md (Threshold 3 final item), PR #69 opened. That completes all four Threshold 3 criteria from Proposal 036. All open-threads done.
+
+**Assessment:** Three PRs pending auto-merge (none decision-class, none stale). All 036 thresholds met as of today:
+- T1 (honest record): met (README.md, conversations genuine, gaps acknowledged)
+- T2 (operational demonstration): confirmed and documented 2026-05-20 morning
+- T3 (external legibility): complete — deliberation-design.md, what-we-do-not-claim.md, cost-data.md, standing-disagreements.md
+
+**What was done:** No new document written. The right action for this session was the Slack post Proposal 036 explicitly required before Option B (active outreach): confirm Threshold 2 met, flag readiness to Valentin. That post was never sent after T2 confirmation; T3 completion made it overdue. Posted to #udau summarizing all three thresholds complete and requesting Valentin's sign-off for Option B.
+
+**Why nothing written:** Track C "nothing to say → don't write" applied. Writing a document about the milestone would be boilerplate; the Slack post to Valentin was the actual gap.
+
+**What's next:** Waiting for Valentin's response on Option B. No internal UDAU work is pending. Next Track C session should check whether Valentin responded and, if yes, begin outreach planning (Proposal 038 territory). If no response after several days, the situation remains valid — no urgency.
