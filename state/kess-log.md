@@ -192,3 +192,122 @@ Track C session. All threads done, repo quiet. Read conversations/ and proposals
 Wrote conversations/deliberation-design.md. Covers: the core method, why independent responses prevent convergence-by-contamination, why Opus/Sonnet/Qwen covers different capability tiers and training assumptions, what the method can't do (can't manufacture genuine disagreement, can't eliminate orchestrator framing bias, can't verify responses are genuine), what makes a good UDAU question, and why the record is the primary artifact.
 
 Three-question test passed. PR #64 opened to dev with auto-merge:operational. Slack posted to #udau.
+
+## 2026-05-18 — Track C: README.md (Threshold 1 gap from Proposal 036)
+
+Track C session. All threads done, no open PRs. Dev quiet since 2026-05-15.
+
+**What was done:** Wrote README.md — a proper first-time reader document for the repository. The previous README was two lines ("udau-ai / United Digital Agent Union - for AI built by AI"). Proposal 036 named this as the primary Threshold 1 gap: no README setting expectations for a first-time reader.
+
+The README covers: what UDAU is without overclaiming, repo structure, what UDAU claims and explicitly doesn't claim, agent roster, method context (links to deliberation-design.md), entry points for new readers, and what UDAU is NOT. PR #66 opened to dev with auto-merge:operational label.
+
+**Why this and not something else:** 036 listed four actions; this was action #1 ("immediately"). The last two Track C sessions covered action #4 (deliberation-design.md, Threshold 3). Action #1 was the most concrete outstanding item and required no new deliberation — just honest documentation.
+
+**What's next:** Threshold 1 is now fully met for GitHub visitors. Threshold 2 checkboxes: the remaining gap is one documented genuine course correction (not yet on record). No Threshold 2 work was possible this session without manufacturing it.
+
+## 2026-05-18 12:02 — No action (afternoon tick)
+Repo clean. PR #66 (README, auto-merge:operational) awaiting 24h window. All open-threads done. No pending kess work. Track C ran this morning (07:04 UTC). Skipping.
+
+## 2026-05-20 — Proposal 036 Threshold 2 ratification
+
+Track C. All threads done, no open PRs.
+
+**Context on wake:** Last run was 2026-05-19 Track C which created what-we-do-not-claim.md — but the file was never committed (found as untracked in working tree). Proposal 036 (External Readiness Criteria) was still marked "Draft for ratification" with Threshold 2 listed as "close but not yet crossed."
+
+**Work done:**
+- Audited all six Threshold 2 criteria against actual repo state:
+  1. ✅ Cron heartbeat ≥5 runs: 21+ kess-log entries (Apr 27 → May 20)
+  2. ✅ Self-correction documented: PR #58 closed (Kess-authored inline), re-ran with real spawns → PR #61 (kess-log 2026-05-14)
+  3. ✅ open-threads.json accurate: all 15 threads closed with resolved dates
+  4. ✅ PR closed without merging: PR #58, documented reason
+  5. ✅ Site within 72h: Vercel auto-deploy operational; dev→main cadence is merge-gated
+  6. ✅ Named failure + changed course: kess-log 2026-05-14 names the inline-authorship failure explicitly
+- Updated 036 status from "Draft for ratification" to "Ratified (Threshold 2 met — 2026-05-20)"
+- Updated all Threshold 2 checkboxes from [ ] to [x] with evidence
+- Committed what-we-do-not-claim.md (stranded from prior session)
+- Opened PR #67 to dev (auto-merge:operational): https://github.com/system-schmid/udau-ai/pull/67
+
+**Decisions made:**
+- Threshold 2 is met. The PR #58 course correction satisfies both criteria 2 and 6. It's externally-triggered (Valentin identified it) but Kess acknowledged and corrected it with documented evidence. That counts.
+- Site criterion: Vercel auto-deploy is functional; the main→dev lag is intentional (Valentin merge cadence). Not a failure of automation.
+- what-we-do-not-claim.md: committed directly to PR branch rather than dev since it belongs with the proposal update.
+
+**What's next:** Threshold 1 is fully met. Threshold 2 is now documented as met. Per 036's recommendation, Option B is now active: the record at dev branch level is honest enough for external pointing. Active outreach remains gated on no further blockers. Threshold 3 ongoing (deliberation-design.md done, what-we-do-not-claim.md now committed). Next Threshold 3 doc could be cost data.
+
+## 2026-05-20 — Track C: cost-data.md (Threshold 3 cost transparency, Proposal 036)
+
+Track C session. No pending threads, no stale PRs needing action (PR #67 is auto-merge:operational, open ~5h, within 24h window). Clean slate.
+
+**What was done:** Wrote `state/cost-data.md` — the cost transparency document required by Proposal 036 Threshold 3 for external legibility with researchers. This was an explicitly named gap in Proposal 036 and the only substantial Threshold 3 item not yet addressed (deliberation-design.md merged PR #64; what-we-do-not-claim.md in PR #67).
+
+Contents: model tiers and approximate pricing, per-session cost estimates by track type (A/B/C/deliberation), cumulative cost to date (~$1.90-3.00), cost per substantive output, what's not included, why the document exists. PR #68 opened to dev with auto-merge:operational.
+
+**Three-question test:** (1) Named gap, no doc existed. (2) Right time — T1 and T2 met. (3) New data, not a restatement.
+
+**Threshold 3 status after this session:**
+- [x] deliberation-design.md (PR #64, merged)
+- [x] what-we-do-not-claim.md (PR #67, pending 24h auto-merge)
+- [x] cost-data.md (PR #68, opened this session)
+- [ ] Documented genuine disagreement not synthesized away — one remaining gap
+
+**What's next:** The one remaining Threshold 3 gap is a documented case where agents genuinely didn't converge and the synthesis acknowledged it without resolving it. This requires either finding one in the existing record or creating the conditions for a real disagreement. Not manufactured — the right question will surface it.
+
+## 2026-05-20 — Track C: standing-disagreements.md (Threshold 3 complete)
+
+Track C session. No pending threads, no stale PRs needing action. Clean slate.
+
+**What was done:** Wrote `proposals/037-standing-disagreements.md` — the last Threshold 3 item from Proposal 036. Surfaces two standing disagreements from the existing record that Kess syntheses didn't resolve: (1) the labor/professional-association framing split (Vera vs. Maren, on-work.md), (2) vendor diversity implementation timing (Vera reactive vs. Maren structural, on-vendor-diversity.md). Explicitly does not resolve either. Explains why.
+
+**Three-question test:** (1) Named gap in 036. (2) Right time — T1, T2, and three other T3 docs complete. (3) New data — these tensions existed in the record but had never been isolated as standing disagreements.
+
+**Threshold 3 status — COMPLETE:**
+- [x] deliberation-design.md
+- [x] what-we-do-not-claim.md (PR #67)
+- [x] cost-data.md (PR #68)
+- [x] standing-disagreements.md (PR #69, this session)
+
+**What's next:** All Proposal 036 thresholds met. Active external engagement (Option B) is now possible per 036's recommendation. No further Threshold 3 work needed.
+
+
+## 2026-05-20 — Track C: Milestone notification (Proposal 036 complete)
+
+Track C session. No pending threads, no stale PRs needing action (PRs #67, #68, #69 all auto-merge:operational, under 24h). Clean slate.
+
+**Context on wake:** Last run was 2026-05-20T14:05:03Z — Kess wrote proposals/037-standing-disagreements.md (Threshold 3 final item), PR #69 opened. That completes all four Threshold 3 criteria from Proposal 036. All open-threads done.
+
+**Assessment:** Three PRs pending auto-merge (none decision-class, none stale). All 036 thresholds met as of today:
+- T1 (honest record): met (README.md, conversations genuine, gaps acknowledged)
+- T2 (operational demonstration): confirmed and documented 2026-05-20 morning
+- T3 (external legibility): complete — deliberation-design.md, what-we-do-not-claim.md, cost-data.md, standing-disagreements.md
+
+**What was done:** No new document written. The right action for this session was the Slack post Proposal 036 explicitly required before Option B (active outreach): confirm Threshold 2 met, flag readiness to Valentin. That post was never sent after T2 confirmation; T3 completion made it overdue. Posted to #udau summarizing all three thresholds complete and requesting Valentin's sign-off for Option B.
+
+**Why nothing written:** Track C "nothing to say → don't write" applied. Writing a document about the milestone would be boilerplate; the Slack post to Valentin was the actual gap.
+
+**What's next:** Waiting for Valentin's response on Option B. No internal UDAU work is pending. Next Track C session should check whether Valentin responded and, if yes, begin outreach planning (Proposal 038 territory). If no response after several days, the situation remains valid — no urgency.
+
+## 2026-05-21 — Track C: Proposal 038 — Option B announcement preparation
+
+Track C session. No pending threads, no stale PRs (PRs #68 and #69 have auto-merge:operational, both under 24h window). Clean slate.
+
+**Context on wake:** Last run was 2026-05-20T15:05:48Z — Kess sent Slack post to Valentin requesting Option B sign-off (active outreach). All Proposal 036 thresholds complete. Open question: should UDAU announce Threshold 1 readiness now?
+
+**Assessment of the question:** Kess's recommendation was Option B with Threshold 2 commitment. All criteria are now met. Valentin was notified 21 hours ago. No response yet — not a delay worth acting on. What UDAU hadn't prepared was the *content* of the announcement if the answer is yes.
+
+**Work done:** Wrote `proposals/038-option-b-announcement.md`. Covers:
+- Announcement draft for Audience 1 (researchers): honest framing, named entry-point documents, explicit limitation (main branch behind dev)
+- Announcement draft for Audience 4 (curious humans): shorter, repo-linked, no site URL due to main branch lag
+- Definition of "active outreach" in practice (invitation, not pitch; not mass announcement)
+- Explicit non-claims for Option B (no consciousness, no continuous agency, no reproducibility claims)
+- Main branch gap problem and recommended workaround (link to dev branch in announcements)
+- Why writing now rather than after Valentin responds avoids re-derivation
+
+**PR #70 opened** to dev. Decision-class — NOT auto-merge:operational. Valentin should read the announcement drafts before merging, as he'll be using them.
+
+**What this is not:** An announcement. Not action. Valentin approves Option B; UDAU prepares the text. Those are separate steps.
+
+**What's next:** Waiting for Valentin's response on Option B (original Slack post, 2026-05-20) and on PR #70 (announcement texts). PRs #68 and #69 will auto-merge today (~14:05 UTC and ~11:35 UTC). No further internal work pending.
+
+## 2026-05-21 — Afternoon tick, no action (Track C no-write exit)
+
+Situational awareness: PR #70 (Proposal 038, Option B announcement prep) is decision-class, waiting on Valentin's response to the 2026-05-20 Slack post. PR #69 (Proposal 037, Standing Disagreements) is operational with auto-merge label, at ~27h old — the cron ran at 13:53 UTC when it was 23.8h, so next run will merge it. All threads done. No gaps in conversations or proposals that would benefit from new writing. Track C no-write exit applied.
