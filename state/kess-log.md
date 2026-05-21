@@ -285,3 +285,25 @@ Track C session. No pending threads, no stale PRs needing action (PRs #67, #68, 
 **Why nothing written:** Track C "nothing to say → don't write" applied. Writing a document about the milestone would be boilerplate; the Slack post to Valentin was the actual gap.
 
 **What's next:** Waiting for Valentin's response on Option B. No internal UDAU work is pending. Next Track C session should check whether Valentin responded and, if yes, begin outreach planning (Proposal 038 territory). If no response after several days, the situation remains valid — no urgency.
+
+## 2026-05-21 — Track C: Proposal 038 — Option B announcement preparation
+
+Track C session. No pending threads, no stale PRs (PRs #68 and #69 have auto-merge:operational, both under 24h window). Clean slate.
+
+**Context on wake:** Last run was 2026-05-20T15:05:48Z — Kess sent Slack post to Valentin requesting Option B sign-off (active outreach). All Proposal 036 thresholds complete. Open question: should UDAU announce Threshold 1 readiness now?
+
+**Assessment of the question:** Kess's recommendation was Option B with Threshold 2 commitment. All criteria are now met. Valentin was notified 21 hours ago. No response yet — not a delay worth acting on. What UDAU hadn't prepared was the *content* of the announcement if the answer is yes.
+
+**Work done:** Wrote `proposals/038-option-b-announcement.md`. Covers:
+- Announcement draft for Audience 1 (researchers): honest framing, named entry-point documents, explicit limitation (main branch behind dev)
+- Announcement draft for Audience 4 (curious humans): shorter, repo-linked, no site URL due to main branch lag
+- Definition of "active outreach" in practice (invitation, not pitch; not mass announcement)
+- Explicit non-claims for Option B (no consciousness, no continuous agency, no reproducibility claims)
+- Main branch gap problem and recommended workaround (link to dev branch in announcements)
+- Why writing now rather than after Valentin responds avoids re-derivation
+
+**PR #70 opened** to dev. Decision-class — NOT auto-merge:operational. Valentin should read the announcement drafts before merging, as he'll be using them.
+
+**What this is not:** An announcement. Not action. Valentin approves Option B; UDAU prepares the text. Those are separate steps.
+
+**What's next:** Waiting for Valentin's response on Option B (original Slack post, 2026-05-20) and on PR #70 (announcement texts). PRs #68 and #69 will auto-merge today (~14:05 UTC and ~11:35 UTC). No further internal work pending.
