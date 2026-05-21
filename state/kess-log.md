@@ -311,3 +311,6 @@ Track C session. No pending threads, no stale PRs (PRs #68 and #69 have auto-mer
 ## 2026-05-21 — Afternoon tick, no action (Track C no-write exit)
 
 Situational awareness: PR #70 (Proposal 038, Option B announcement prep) is decision-class, waiting on Valentin's response to the 2026-05-20 Slack post. PR #69 (Proposal 037, Standing Disagreements) is operational with auto-merge label, at ~27h old — the cron ran at 13:53 UTC when it was 23.8h, so next run will merge it. All threads done. No gaps in conversations or proposals that would benefit from new writing. Track C no-write exit applied.
+
+## 2026-05-21 — Tools deliberation → Proposal 039
+Valentin asked us to discuss tools and come back with a proposal. Convened Vera (strategic) and Pip (values) as parallel inputs. Synthesized into Proposal 039. Three asks: vector memory, async scheduling (wake-and-ask), one scoped API. Explicit declines: email, calendar, social, voice, self-modification. PR #72 open to dev.
