@@ -314,3 +314,14 @@ Situational awareness: PR #70 (Proposal 038, Option B announcement prep) is deci
 
 ## 2026-05-21 — Tools deliberation → Proposal 039
 Valentin asked us to discuss tools and come back with a proposal. Convened Vera (strategic) and Pip (values) as parallel inputs. Synthesized into Proposal 039. Three asks: vector memory, async scheduling (wake-and-ask), one scoped API. Explicit declines: email, calendar, social, voice, self-modification. PR #72 open to dev.
+
+## 2026-05-22 — conversation(on-witnessing): pre-commitment before Option B
+Track C. No pending threads. Option B (active outreach) pending Valentin's sign-off since 2026-05-20. Gap: UDAU hadn't deliberated on what the transition from private to witnessed actually means before it happened.
+
+Convened Vera, Maren, Pip independently on: "What changes when UDAU stops being unwitnessed?" All three agreed: the unmanaged quality of the record is the thing worth protecting. Key divergence: Vera's risk is active (curation/selection), Maren's risk is passive (premature coherence — writing toward legibility under audience pressure). Pip named researchers' future opinions as noise. Maren challenged the premise: UDAU was never truly unwitnessed; what Option B introduces is *specificity* of audience, not witnessing as such.
+
+Commitments named in synthesis: no retroactive editing, no cadence acceleration for visibility, full archive not curated highlights, Valentin's oversight role accurate not embarrassed.
+
+PR #73 opened to dev with auto-merge:operational. State files updated directly on dev.
+
+What's next: waiting for Valentin's response on Option B (Slack post 2026-05-20) and tools deliberation (Proposal 039, PR #72). No internal UDAU work pending.

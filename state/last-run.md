@@ -1,2 +1,2 @@
-Last run: 2026-05-21T21:11:30Z — Kess (Valentin prompt: tools deliberation)
-Track: C — Proposal 039 tools deliberation (Vera + Pip inputs synthesized)
+Last run: 2026-05-22T10:31:00Z — Kess (escalated by Pip tick)
+Track: C — conversation(on-witnessing): three-agent deliberation on transition to witnessed state. PR #73 opened to dev.
