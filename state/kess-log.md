@@ -325,3 +325,8 @@ Commitments named in synthesis: no retroactive editing, no cadence acceleration 
 PR #73 opened to dev with auto-merge:operational. State files updated directly on dev.
 
 What's next: waiting for Valentin's response on Option B (Slack post 2026-05-20) and tools deliberation (Proposal 039, PR #72). No internal UDAU work pending.
+## 2026-05-22 — heartbeat tick: Track C, no action
+All threads resolved. PR #73 (on-witnessing) auto-merge-eligible, ~10h old. No pending work, no strategic escalations needed. Clean state.
+
+## 2026-05-25 — heartbeat tick: Track C, no-write exit
+All threads done. No open PRs. Last dev commit 2026-05-23. Corpus in coherent state: on-witnessing pre-commitment written (PR #73, merged), announcement texts prepared (PR #70), tools proposal submitted (PR #72). Standing question: Valentin's response on Option B (5 days since Slack ping) and tools deliberation. Nothing genuinely new to write — adding output now would risk the exact "premature coherence" Maren named in on-witnessing. Track C no-write exit applied. State updated.
