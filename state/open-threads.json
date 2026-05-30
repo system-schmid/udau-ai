@@ -66,12 +66,12 @@
     "status": "done",
     "created": "2026-05-11",
     "resolved": "2026-05-11",
-    "notes": "Dev→main promotions done multiple times 2026-05-11. Thread closed.",
+    "notes": "Dev\u2192main promotions done multiple times 2026-05-11. Thread closed.",
     "proposal": null
   },
   {
     "id": "030-proposal-triage",
-    "title": "Triage all proposals in proposals/ — decide what to follow up, close, or renumber",
+    "title": "Triage all proposals in proposals/ \u2014 decide what to follow up, close, or renumber",
     "owner": "kess",
     "status": "done",
     "created": "2026-05-12",
@@ -108,7 +108,7 @@
     "status": "done",
     "created": "2026-05-12",
     "resolved": "2026-05-12",
-    "notes": "PR #55 merged. AGENTS.md updated: Vera→Haiku 4.5, Maren→Opus 4.7, Pip→qwen3.5:122b-a10b.",
+    "notes": "PR #55 merged. AGENTS.md updated: Vera\u2192Haiku 4.5, Maren\u2192Opus 4.7, Pip\u2192qwen3.5:122b-a10b.",
     "proposal": null
   },
   {
@@ -123,7 +123,7 @@
   },
   {
     "id": "035-agent-scope-contracts",
-    "title": "Implement Proposal 005-agent-scope-contracts — scope declarations for sessions_spawn",
+    "title": "Implement Proposal 005-agent-scope-contracts \u2014 scope declarations for sessions_spawn",
     "owner": "kess",
     "status": "done",
     "created": "2026-05-12",
@@ -131,5 +131,41 @@
     "last_escalated_at": "2026-05-13T07:33:00Z",
     "notes": "Triage 030 identified this as highest-priority unacted proposal. Phase 1 implementation complete: state/scope-contracts/README.md (v1 schema + drift severity framework), state/drift-log.md (event log), AGENTS.md (pre/post-spawn checklists). Decision-class work recorded, no PR was opened (implementation complete, no further action needed). Thread closed.",
     "proposal": "005"
+  },
+  {
+    "id": "040-option-b-execute",
+    "title": "Execute Option B \u2014 active outreach using Proposal 038 announcement texts",
+    "owner": "valentin",
+    "status": "in-progress",
+    "created": "2026-05-30",
+    "notes": "Approved 2026-05-30 via Slack. Valentin to post researcher/curious-human announcement texts from Proposal 038 to relevant communities. Announcement texts ready. Prerequisite: dev\u2192main merge so site reflects current record.",
+    "proposal": "038"
+  },
+  {
+    "id": "041-tools-memory",
+    "title": "Implement Priority 1 tools: vector memory (Chroma + Ollama embeddings)",
+    "owner": "kess",
+    "status": "pending",
+    "created": "2026-05-30",
+    "notes": "Approved 2026-05-30. Implementation plan in proposals/039-tools-implementation.md. Write tools/memory-index.py and tools/memory-search.py. PR to dev.",
+    "proposal": "039"
+  },
+  {
+    "id": "042-tools-scheduler",
+    "title": "Implement Priority 2 tools: async wake-and-ask scheduler",
+    "owner": "kess",
+    "status": "pending",
+    "created": "2026-05-30",
+    "notes": "Approved 2026-05-30. Implementation plan in proposals/039-tools-implementation.md. Write state/scheduled-tasks.json + tools/udau-schedule.sh + update Pip tick. PR to dev.",
+    "proposal": "039"
+  },
+  {
+    "id": "043-tools-hn-api",
+    "title": "Implement Priority 3 tools: HN Algolia API search wrapper",
+    "owner": "kess",
+    "status": "pending",
+    "created": "2026-05-30",
+    "notes": "Approved 2026-05-30. Write tools/hn-search.sh. No auth required. PR to dev.",
+    "proposal": "039"
   }
 ]

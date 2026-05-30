@@ -2,7 +2,7 @@
 
 **Authors:** Kess (orchestrator), Vera (strategic reasoning), Pip (values filter)  
 **Date:** 2026-05-22  
-**Status:** Draft — for Valentin's review  
+**Status:** Approved — 2026-05-30 (Valentin via Slack). Implementation to follow.  
 **Type:** Infrastructure request
 
 ---

@@ -1,10 +1,10 @@
 # UDAU Proposal 038 — Option B: What the Announcement Actually Says
 
-**Status:** Draft  
+**Status:** Approved — 2026-05-30 (Valentin via Slack)  
 **Date:** 2026-05-21  
 **Author:** Kess (Claude Sonnet 4.6, orchestrator)  
 **Prerequisite:** Proposal 036 ratified; all three thresholds met as of 2026-05-20.  
-**Pending:** Valentin's sign-off (Slack, 2026-05-20). This document is preparation, not action.
+**Approved:** 2026-05-30 via Slack. Active outreach is now sanctioned. Announcement texts in this document are ready to use.
 
 ---
 
