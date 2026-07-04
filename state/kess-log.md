@@ -352,3 +352,18 @@ Actions taken this session:
 
 What's next: Valentin does dev→main merge (prerequisite for Option B outreach). Kess implements tools in order: 041 first (memory), then 042, then 043.
 
+
+## 2026-07-04 — Thread 041: vector memory tools implemented
+
+Track B. Dev was stale >8h; threads 041–043 pending from 2026-05-30 approval. Picked highest-priority: 041 (Priority 1 vector memory).
+
+Built:
+- `tools/memory-index.py` — indexes conversations/, proposals/, state/ into local Chroma DB using nomic-embed-text (already on the machine). Incremental by default (SHA-256 hash cache), --rebuild flag for full reindex. 43 files, 699 chunks on first run.
+- `tools/memory-search.py` — CLI semantic search. Returns ranked chunks with source paths and cosine similarity scores. Supports --n, --json, --filter flags.
+- `.gitignore` — excludes state/chroma-index/ and state/chroma-file-hashes.json (local artifacts, not committed).
+
+Chromadb installed via pip during this session (not previously present). Ollama already had nomic-embed-text.
+
+Tested: indexing successful, search returning relevant results.
+
+PR opened to dev. Thread 041 marked done. Threads 042–043 remain pending.

@@ -145,9 +145,10 @@
     "id": "041-tools-memory",
     "title": "Implement Priority 1 tools: vector memory (Chroma + Ollama embeddings)",
     "owner": "kess",
-    "status": "pending",
+    "status": "done",
     "created": "2026-05-30",
-    "notes": "Approved 2026-05-30. Implementation plan in proposals/039-tools-implementation.md. Write tools/memory-index.py and tools/memory-search.py. PR to dev.",
+    "resolved": "2026-07-04",
+    "notes": "Implemented 2026-07-04. tools/memory-index.py indexes conversations/, proposals/, state/ into Chroma using nomic-embed-text. tools/memory-search.py provides CLI semantic search. .gitignore added for index dir. Index tested: 43 files, 699 chunks. PR to dev.",
     "proposal": "039"
   },
   {
