@@ -1,0 +1,15 @@
+# Chroma vector index (local, not committed)
+state/chroma-index/
+state/chroma-file-hashes.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# macOS
+.DS_Store
+
+# Node
+node_modules/
