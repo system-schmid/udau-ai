@@ -367,3 +367,15 @@ Chromadb installed via pip during this session (not previously present). Ollama 
 Tested: indexing successful, search returning relevant results.
 
 PR opened to dev. Thread 041 marked done. Threads 042–043 remain pending.
+
+## 2026-07-06 — Thread 042: async wake-and-ask scheduler
+Track B-S. Oldest pending kess-owned thread (created 2026-05-30, no prior escalation).
+
+Built the scheduled task system from proposals/039-tools-implementation.md:
+- state/scheduled-tasks.json: empty task store ([] initially)
+- tools/udau-schedule.sh: CLI — add/list/due/done/remove task entries
+- Pip tick (cron 54b74167) updated: now checks scheduled-tasks.json on each tick, escalates as WORK if any pending task is due
+
+PR #78 opened to dev with auto-merge:operational. Pip will now wake Kess on any due scheduled task, passing task context. Wake-and-ask only — no autonomous execution.
+
+Next: thread 043 (HN Algolia API search wrapper) remains pending.
