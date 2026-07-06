@@ -155,8 +155,9 @@
     "id": "042-tools-scheduler",
     "title": "Implement Priority 2 tools: async wake-and-ask scheduler",
     "owner": "kess",
-    "status": "pending",
+    "status": "in-progress",
     "created": "2026-05-30",
+    "last_escalated_at": "2026-07-06T06:03:19Z",
     "notes": "Approved 2026-05-30. Implementation plan in proposals/039-tools-implementation.md. Write state/scheduled-tasks.json + tools/udau-schedule.sh + update Pip tick. PR to dev.",
     "proposal": "039"
   },
