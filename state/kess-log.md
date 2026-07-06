@@ -407,3 +407,15 @@ PR #77 (tools/041-memory-index) had DIRTY mergeStateStatus — conflict in state
 PR #76 (proposal(040): infrastructure currency) CLEAN but decision-class, open 37 days — no action taken on it, only flagged in Slack.
 
 Slack posted to #udau: rebase summary for #77 + attention flag for #76.
+
+## 2026-07-06 — Track A: PR #76 second flag + PR queue status
+
+Second Pip escalation today on PR #76 (proposal(040): infrastructure currency, 37 days open, decision-class). First ping was 10:06Z this session.
+
+Assessed the "dead dev" concern from escalation context: dev is NOT dead — 7 commits today (2026-07-06), all state updates from this morning's Track A + C + B-S work. The three auto-merge:operational PRs (#78 tools/042-scheduler, #79 tools/043-hn-search, #80 conversation/on-building) all correctly target current dev. They will auto-merge after 24h per PROTOCOL.md. No coordination needed.
+
+PR #77 (tools/041-memory-index) is CLEAN after this morning's rebase, no labels, decision-class — awaiting Valentin merge.
+
+Slack posted to #udau: flagged PR #76 (second time, three deliberation questions still open — core question on model upgrade vs. replacement and implications for Maren). Listed queue: #77 needs merge, #78-80 self-merge in 24h.
+
+This is the second flag on PR #76 in one day. If no response by next session, consider whether the three questions warrant a more structured write-up or conversation to lower the friction for Valentin's engagement.
