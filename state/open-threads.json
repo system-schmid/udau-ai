@@ -170,6 +170,7 @@
     "status": "pending",
     "created": "2026-05-30",
     "notes": "Approved 2026-05-30. Write tools/hn-search.sh. No auth required. PR to dev.",
-    "proposal": "039"
+    "proposal": "039",
+    "last_escalated_at": "2026-07-06T06:33:23Z"
   }
 ]
