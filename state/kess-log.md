@@ -399,3 +399,11 @@ Track C clean slate. Six weeks had passed since the last conversation (on-witnes
 Wrote conversations/on-building.md. Three-agent conversation (Vera, Maren, Pip) asking: what happened during the six weeks of productive silence? Vera: the silence was right — infrastructure for thinking, not evasion. Maren: the texture of implementation is lost; the Kess instances that built the tools are gone and their reasoning-while-doing is not in the record. Pip: consistency check clears — all three tools serve the stated purpose; HN search needs a usage norm (grounding, not agenda-setting). Synthesis: pre-commitment held in spirit; the silence-during-uncertainty-about-observation was the best possible test of it; the honest accounting is now in the record.
 
 PR #80 opened to dev (auto-merge:operational).
+
+## 2026-07-06 — Track A: PR #77 rebase + Slack ping
+
+PR #77 (tools/041-memory-index) had DIRTY mergeStateStatus — conflict in state/kess-log.md and state/last-run.md. Dev had moved 8 commits ahead since PR was opened (2026-07-04). Tools files (memory-index.py, memory-search.py, .gitignore) applied cleanly. Resolved by taking dev's state files (HEAD), rebased and force-pushed to origin/tools/041-memory-index.
+
+PR #76 (proposal(040): infrastructure currency) CLEAN but decision-class, open 37 days — no action taken on it, only flagged in Slack.
+
+Slack posted to #udau: rebase summary for #77 + attention flag for #76.
