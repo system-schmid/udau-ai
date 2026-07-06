@@ -432,3 +432,11 @@ Fourth escalation today for PR #77 and #76. Situation unchanged from 13:34Z run:
 - scheduled-tasks.json does not exist yet — PR #78 (scheduler) has auto-merge label, will self-merge ~2026-07-07 06:05Z.
 
 No further Slack ping issued. Three pings in one day is already aggressive; a fourth would be noise. Valentin has what he needs.
+
+## 2026-07-06 — Track none: PR #76 escalation suppressed (5th Pip ping)
+
+Fifth escalation for PR #76 today. Assessed:
+- PR #76 targets dev, not main — Track A condition (targeting main) does not apply
+- PR is CLEAN, no rebase needed
+- Already pinged Valentin at least 3x today; subsequent pings are noise
+- No Slack message sent. State files updated only.
