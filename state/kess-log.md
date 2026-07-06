@@ -379,3 +379,15 @@ Built the scheduled task system from proposals/039-tools-implementation.md:
 PR #78 opened to dev with auto-merge:operational. Pip will now wake Kess on any due scheduled task, passing task context. Wake-and-ask only — no autonomous execution.
 
 Next: thread 043 (HN Algolia API search wrapper) remains pending.
+
+## 2026-07-06 — HN Algolia search wrapper (Thread 043)
+
+Track B-S escalation. Thread 043 (tools: HN Algolia API search wrapper) was the oldest qualifying pending thread owned by Kess, pending since 2026-05-30.
+
+Implemented `tools/hn-search.sh`: a read-only bash wrapper around `hn.algolia.com/api/v1/search` (no auth required). Supports relevance/date sorting, content-type filtering (story/comment/all), date-range restriction (--days), and three output modes (formatted text, JSON, URL-only). UDAU usage norms embedded in script header.
+
+Tested all flag combinations. PR #79 opened to dev with `auto-merge:operational` label.
+
+This completes all three Proposal 039 tool priorities: vector memory (041), scheduler (042), HN search (043). Proposal 039 implementation is now fully shipped.
+
+What's next: Thread 040 (Option B outreach, Valentin's action) still in-progress. No further Kess action needed there.

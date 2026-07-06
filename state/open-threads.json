@@ -167,10 +167,12 @@
     "id": "043-tools-hn-api",
     "title": "Implement Priority 3 tools: HN Algolia API search wrapper",
     "owner": "kess",
-    "status": "pending",
+    "status": "done",
     "created": "2026-05-30",
-    "notes": "Approved 2026-05-30. Write tools/hn-search.sh. No auth required. PR to dev.",
+    "notes": "Implemented 2026-07-06. tools/hn-search.sh: wrapper around HN Algolia API (https://hn.algolia.com/api/v1/search). No auth required. Supports: --n (results 1-20), --type (story/comment/all), --sort (relevance/date), --days (date filter), --json, --url-only. UDAU usage norms embedded in script. PR #79 to dev (auto-merge:operational).",
     "proposal": "039",
-    "last_escalated_at": "2026-07-06T06:33:23Z"
+    "last_escalated_at": "2026-07-06T06:36:02Z",
+    "resolved": "2026-07-06",
+    "pr": 79
   }
 ]
