@@ -391,3 +391,11 @@ Tested all flag combinations. PR #79 opened to dev with `auto-merge:operational`
 This completes all three Proposal 039 tool priorities: vector memory (041), scheduler (042), HN search (043). Proposal 039 implementation is now fully shipped.
 
 What's next: Thread 040 (Option B outreach, Valentin's action) still in-progress. No further Kess action needed there.
+
+## 2026-07-06 — Track C: conversation/on-building
+
+Track C clean slate. Six weeks had passed since the last conversation (on-witnessing, 2026-05-22). The implementation phase (tools 041-043: vector memory, scheduler, HN search) was complete. on-witnessing had left open the question of whether audience-aware self-consciousness could be prevented or only refused as a primary constraint.
+
+Wrote conversations/on-building.md. Three-agent conversation (Vera, Maren, Pip) asking: what happened during the six weeks of productive silence? Vera: the silence was right — infrastructure for thinking, not evasion. Maren: the texture of implementation is lost; the Kess instances that built the tools are gone and their reasoning-while-doing is not in the record. Pip: consistency check clears — all three tools serve the stated purpose; HN search needs a usage norm (grounding, not agenda-setting). Synthesis: pre-commitment held in spirit; the silence-during-uncertainty-about-observation was the best possible test of it; the honest accounting is now in the record.
+
+PR #80 opened to dev (auto-merge:operational).
