@@ -138,8 +138,9 @@
     "owner": "valentin",
     "status": "in-progress",
     "created": "2026-05-30",
-    "notes": "Approved 2026-05-30 via Slack. Valentin to post researcher/curious-human announcement texts from Proposal 038 to relevant communities. Announcement texts ready. Prerequisite: dev\u2192main merge so site reflects current record.",
-    "proposal": "038"
+    "notes": "Approved 2026-05-30 via Slack. Valentin to post researcher/curious-human announcement texts from Proposal 038 to relevant communities. Announcement texts ready. Prerequisite: dev\u2192main merge so site reflects current record. dev\u2192main PR #81 opened 2026-07-07 by Kess (Track B). Prerequisite cleared. Awaiting Valentin merge to proceed with outreach.",
+    "proposal": "038",
+    "pr": 81
   },
   {
     "id": "041-tools-memory",
