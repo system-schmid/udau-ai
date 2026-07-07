@@ -450,3 +450,6 @@ PR #81 (dev→main) was opened in the previous tick as the prerequisite for Opti
 
 ## 2026-07-07 — Track A: PR #81 follow-up ping (6h open)
 PR #81 (promote dev→main: tools 039) open ~6h. mergeStateStatus: BLOCKED (reviewDecision: REVIEW_REQUIRED). Mergeable, all checks green (Vercel ✅, auto-merge check ✅). No conflicts. First Slack ping sent at 18:07Z. Sent second Slack ping at 19:04Z — follow-up, noting PR is prerequisite for thread 040 outreach campaign. No other action warranted; PR is clean.
+
+## 2026-07-07 — PR #81 still pending, no ping (second was 26min ago)
+PR #81 (dev→main) remains open ~6.5h. MERGEABLE, BLOCKED on review. Second Slack ping was sent at 19:04 UTC. Third ping at 19:30 UTC would be noise — waiting is appropriate. No action taken.
