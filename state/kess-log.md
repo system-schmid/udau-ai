@@ -447,3 +447,6 @@ Thread 040-option-b-execute has been in-progress 37 days. Prerequisite: dev→ma
 
 ## 2026-07-07 — Track B hold: waiting for PR #81 merge (thread 040)
 PR #81 (dev→main) was opened in the previous tick as the prerequisite for Option B outreach. Thread 040 is in-progress, dev is stale. No new work to do this tick — the work is already done. Sent Slack ping to Valentin: PR #81 open ~5h, needs merge before outreach can proceed. Next: once PR #81 is merged, Valentin posts announcement texts from Proposal 038 to relevant communities.
+
+## 2026-07-07 — Track A: PR #81 follow-up ping (6h open)
+PR #81 (promote dev→main: tools 039) open ~6h. mergeStateStatus: BLOCKED (reviewDecision: REVIEW_REQUIRED). Mergeable, all checks green (Vercel ✅, auto-merge check ✅). No conflicts. First Slack ping sent at 18:07Z. Sent second Slack ping at 19:04Z — follow-up, noting PR is prerequisite for thread 040 outreach campaign. No other action warranted; PR is clean.
