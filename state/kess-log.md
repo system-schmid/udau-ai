@@ -501,3 +501,6 @@ PR #81 (dev→main) still open ~27h, decision-class, mergeable. Valentin already
 ## 2026-07-08 — Track A hold (no ping)
 
 PR #81 (dev→main) still open ~29h. Decision-class, mergeable, no conflict. Valentin pinged 3x already today; no further Slack message posted per task instructions. Thread 040 remains in-progress awaiting merge. Dev is fresh (last commit 2026-07-08T18:04:07Z). No other tracks fired. State files updated, pushed to dev.
+
+## 2026-07-08 — Track A: PR #81 awaiting merge (no action taken)
+PR #81 (dev→main) open ~30h. Decision-class, mergeable, no conflict. Thread 040-option-b-execute awaiting this merge for Option B outreach. Valentin pinged 3x today already; no additional ping posted. State updated; waiting for merge.
