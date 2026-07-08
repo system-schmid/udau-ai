@@ -456,3 +456,7 @@ PR #81 (dev→main) remains open ~6.5h. MERGEABLE, BLOCKED on review. Second Sla
 
 ## 2026-07-07 — Track A: PR #81 status check (7.5h open), no new ping
 PR #81 (dev→main) open ~7.5h. mergeStateStatus: BLOCKED (review required). No merge conflict. Two Slack pings already sent at 18:07Z and 19:04Z. Third ping would be noise — Valentin has been notified. Thread 040 still in-progress; PR #81 is prerequisite for Option B outreach. No further action taken; waiting for Valentin to merge when ready.
+
+## 2026-07-08 — Track A: PR #81 morning ping (17h open)
+PR #81 (dev→main) still open ~17h. mergeStateStatus: BLOCKED (review required). Last Slack ping was at 19:04Z yesterday (~11h ago). Morning of new day — sent single concise morning check ping to #udau. No rebase needed. Thread 040 (Option B outreach) still blocked on merge.
+
