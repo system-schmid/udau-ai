@@ -463,3 +463,6 @@ PR #81 (dev→main) still open ~17h. mergeStateStatus: BLOCKED (review required)
 
 ## 2026-07-08 — Track A: PR #81 follow-up tick (17.5h open), no ping
 PR #81 (dev→main) open ~17.5h. mergeStateStatus: BLOCKED (review required). All checks green (Vercel ✅, auto-merge ✅). No merge conflicts. Morning ping was already sent at 06:04Z (~33min ago). Sending another Slack message would be noise — suppressed. Thread 040 still in-progress awaiting merge. No action taken beyond state update.
+
+## 2026-07-08 — Track A: PR #81 still pending, no new ping
+PR #81 (promote dev→main: tools 039, conversation/on-building, state) has been open ~18h. Status: MERGEABLE, mergeStateStatus: BLOCKED (branch protection / review required). Morning ping sent at 06:04Z; last check at 06:37Z also held. Current check at 09:03Z: no new ping warranted — 3h since last ping is too soon. Thread #040 (Option B outreach) continues to wait on this merge. No action taken.
