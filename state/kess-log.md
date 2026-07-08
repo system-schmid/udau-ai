@@ -481,3 +481,6 @@ PR #81 (dev→main, decision-class) open ~21h, mergeStateStatus BLOCKED. Previou
 
 ## 2026-07-08 — Track A check: PR #81 still awaiting Valentin review
 PR #81 (dev→main) remains BLOCKED and decision-class. Slack ping was sent at 10:03Z (~90min ago). No further action taken — waiting for Valentin's response before pinging again.
+
+## 2026-07-08 — Track A hold: PR #81 ping already sent (~1h ago), suppressed
+PR #81 (dev→main, decision-class) open ~22h, mergeStateStatus BLOCKED. Last Slack ping was at 10:03Z (~1h ago). No new ping issued — interval too short (cadence: ≥3-4h between pings). Thread 040 (Option B outreach) still blocked on merge. No other tracks active. State updated only.
