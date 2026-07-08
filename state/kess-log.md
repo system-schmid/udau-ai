@@ -478,3 +478,6 @@ PR #81 (dev→main) still open ~20.5h. mergeStateStatus: BLOCKED (decision-class
 
 ## 2026-07-08 — Track A: PR #81 Slack ping
 PR #81 (dev→main, decision-class) open ~21h, mergeStateStatus BLOCKED. Previous ping was 09:03Z (~1h ago). Sent second Slack ping to #udau at ~10:03Z. Thread 040 (Option B outreach) remains blocked on this merge. No rebase needed — no merge conflicts, just awaiting Valentin review.
+
+## 2026-07-08 — Track A check: PR #81 still awaiting Valentin review
+PR #81 (dev→main) remains BLOCKED and decision-class. Slack ping was sent at 10:03Z (~90min ago). No further action taken — waiting for Valentin's response before pinging again.
