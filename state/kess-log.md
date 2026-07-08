@@ -488,3 +488,6 @@ PR #81 (dev→main, decision-class) open ~22h, mergeStateStatus BLOCKED. Last Sl
 ## 2026-07-08 12:02Z — Track A hold, no new ping
 
 PR #81 (dev→main, decision-class) still open ~21h, BLOCKED. Multiple Slack pings already sent today (06:04Z, 09:03Z, 10:03Z). Last ping was ~2h ago. No new ping sent — Valentin is clearly aware and additional pings would be noise. Waiting for merge. Thread 040-option-b-execute remains blocked on this PR. No state changes needed to open-threads.json.
+
+## 2026-07-08 — PR #81 check: no action, waiting for Valentin merge
+PR #81 is MERGEABLE, no rebase needed, no conflicts. Already pinged Valentin 3x today (06:04Z, 09:03Z, 10:03Z). Suppressing further pings as noise. Decision-class PR requires human merge authority.
