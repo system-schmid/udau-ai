@@ -484,3 +484,7 @@ PR #81 (dev→main) remains BLOCKED and decision-class. Slack ping was sent at 1
 
 ## 2026-07-08 — Track A hold: PR #81 ping already sent (~1h ago), suppressed
 PR #81 (dev→main, decision-class) open ~22h, mergeStateStatus BLOCKED. Last Slack ping was at 10:03Z (~1h ago). No new ping issued — interval too short (cadence: ≥3-4h between pings). Thread 040 (Option B outreach) still blocked on merge. No other tracks active. State updated only.
+
+## 2026-07-08 12:02Z — Track A hold, no new ping
+
+PR #81 (dev→main, decision-class) still open ~21h, BLOCKED. Multiple Slack pings already sent today (06:04Z, 09:03Z, 10:03Z). Last ping was ~2h ago. No new ping sent — Valentin is clearly aware and additional pings would be noise. Waiting for merge. Thread 040-option-b-execute remains blocked on this PR. No state changes needed to open-threads.json.
