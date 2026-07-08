@@ -494,3 +494,6 @@ PR #81 is MERGEABLE, no rebase needed, no conflicts. Already pinged Valentin 3x 
 
 ## 2026-07-08 — Track A, PR #81 waiting
 PR #81 (dev→main) has been open ~27h. Decision-class, mergeable, no conflicts. Valentin already pinged 3x today — further pinging would be noise. No Slack post. Waiting for Valentin to merge.
+
+## 2026-07-08 — Track A, no action (PR #81 waiting, no-ping constraint)
+PR #81 (dev→main) still open ~27h, decision-class, mergeable. Valentin already pinged 3x today per last-run.md; no further Slack ping taken. PR is valid, no rebase needed, no close comment warranted. Waiting for Valentin to merge. State updated only.
