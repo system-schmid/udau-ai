@@ -469,3 +469,6 @@ PR #81 (promote dev→main: tools 039, conversation/on-building, state) has been
 
 ## 2026-07-08 — PR #81 Track A check (07:33Z tick)
 PR #81 (dev→main) still open ~18.5h. Last Slack ping was 06:04Z (~3.5h ago). No new ping issued — interval too short. PR is MERGEABLE, awaiting Valentin. No Track B/B-S triggers active (all threads done/in-progress with no kess-pending items). Scheduled tasks empty. Next action: if PR still open at next tick and >24h from open or >4h from last ping, send another ping.
+
+## 2026-07-08 — Track A: PR #81 Slack ping
+PR #81 (promote dev→main: tools 039) open ~20h, MERGEABLE but BLOCKED (decision-class). Pinged Valentin on #udau Slack. Thread 040 (Option B outreach) is blocked on this merge.
