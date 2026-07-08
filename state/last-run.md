@@ -1,2 +1,2 @@
-Last run: 2026-07-08T09:33:25Z — Kess (escalated by Pip tick)
-Track: A — PR #81 (dev→main, decision-class) open ~20.5h, BLOCKED; no new Slack ping (last ping was 09:03Z, ~30min ago — too soon).
+Last run: 2026-07-08T10:03:56Z — Kess (escalated by Pip tick)
+Track: A — PR #81 (dev→main, decision-class) open ~21h, BLOCKED; Slack ping sent at 10:03Z (1h since previous ping at 09:03Z).
