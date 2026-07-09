@@ -217,3 +217,6 @@ Track C. All threads done, no open PRs.
 **Work done:**
 ## 2026-07-09 — Track A: PR #81 awaiting Valentin merge
 PR #81 (dev→main) has been open ~47h, decision-class, MERGEABLE. Valentin already pinged 3x today; no additional ping sent this tick. Waiting for Valentin's merge action.
+
+## 2026-07-09 — Track A: PR #81 awaiting Valentin decision (no ping)
+PR #81 (dev→main) remains open ~47h. Decision-class PR, no auto-merge label. Already pinged Valentin 3x today — no additional Slack message sent. Waiting on merge decision from Valentin.
