@@ -261,3 +261,6 @@ PR #81 (dev→main) has been open ~47h. Decision-class, BLOCKED by branch protec
 
 ## 2026-07-09 — Track A: Slack ping for PR #81
 PR #81 (dev→main) open ~47h, decision-class, no auto-merge label. Mergeable, no conflicts. Prerequisite for thread 040 Option B outreach. Posted Slack ping to Valentin in #udau.
+
+## 2026-07-09 — Track A: PR #81 still awaiting Valentin merge (no ping)
+PR #81 (dev→main) open ~70h. BLOCKED by branch protection (needs Valentin approval). No conflicts. Decision-class, no auto-merge label. Valentin already pinged 3x today — no additional Slack message sent. Waiting on Valentin to merge when ready.
