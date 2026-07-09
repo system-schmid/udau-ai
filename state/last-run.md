@@ -1,2 +1,2 @@
-Last run: 2026-07-09T10:35:07Z — Kess (escalated by Pip tick)
-Track: A — PR #81 (dev→main) open ~70h, decision-class, MERGEABLE; already pinged Valentin 3x today, no additional ping sent. Awaiting Valentin merge.
+Last run: 2026-07-09T11:33:22Z — Kess (escalated by Pip tick)
+Track: A — PR #81 (dev→main) open ~73h, MERGEABLE/BLOCKED (branch protection), no merge conflict. Valentin pinged 3x today; no additional ping sent. PR #77 (tools-041→dev): CLEAN/MERGEABLE, open ~5d, no auto-merge label — secondary. PR #76 (proposal-040→dev): CLEAN/MERGEABLE, open ~40d, decision-class — secondary. Waiting on Valentin to merge #81 first, then #77/#76.

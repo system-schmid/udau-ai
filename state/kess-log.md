@@ -223,3 +223,9 @@ PR #81 (dev→main) remains open ~47h. Decision-class PR, no auto-merge label. A
 
 ## 2026-07-09 — Track A: PR #81 still awaiting merge
 PR #81 (dev→main: tools 039, conversation/on-building, state) open ~70h. Status: MERGEABLE, not DIRTY. Decision-class, no auto-merge label. Already pinged Valentin 3x today — no additional ping sent. No rebase or close action warranted. Waiting for Valentin to merge when ready.
+
+## 2026-07-09 — Track A check: PR #81 + PR #77 + PR #76 status assessment
+PR #81 (dev→main): MERGEABLE, BLOCKED by branch protection (no approvals). Open ~73h. No merge conflict. Decision-class, no auto-merge label. Valentin pinged 3x today already — no additional ping sent. Nothing Kess can do unilaterally; awaiting Valentin merge.
+PR #77 (tools-041-memory-index→dev): CLEAN/MERGEABLE, open ~5 days. Contains operational tooling (Priority 1 from Proposal 039). No auto-merge:operational label (should have had one). Secondary blocker — once #81 merges, this becomes dev-level priority.
+PR #76 (proposal-040-infrastructure-currency→dev): CLEAN/MERGEABLE, open ~40 days. Proposal-class, decision-class. No auto-merge label. Also secondary.
+Next: wait for Valentin to merge #81. Track A remains active. PRs #77/#76 do not change Track A classification — no additional action taken this session.
