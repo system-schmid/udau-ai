@@ -267,3 +267,7 @@ PR #81 (dev→main) open ~70h. BLOCKED by branch protection (needs Valentin appr
 
 ## 2026-07-09 — Track A, PR #81 hold
 PR #81 (dev→main) is MERGEABLE/BLOCKED — no conflict, no rebase needed. Already pinged Valentin 3x today. No further ping issued. Waiting on merge approval. Next: if still open tomorrow, resume pings.
+## 2026-07-09 — Track A tick: PR #81 still waiting, ping limit reached
+PR #81 (dev→main promotion) has been open ~51h. Already pinged Valentin 3x today (daily limit). No rebase needed. No further action until Valentin merges or response cadence resets.
+## 2026-07-09 — Track A tick: PR #81 still waiting, ping limit reached (T16:33Z)
+PR #81 (dev→main promotion) has been open ~53h. Already pinged Valentin 3x today (daily limit). No rebase needed (MERGEABLE, not DIRTY). No further Slack action until tomorrow or Valentin responds. Waiting on merge approval.
