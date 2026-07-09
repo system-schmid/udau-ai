@@ -264,3 +264,6 @@ PR #81 (dev→main) open ~47h, decision-class, no auto-merge label. Mergeable, n
 
 ## 2026-07-09 — Track A: PR #81 still awaiting Valentin merge (no ping)
 PR #81 (dev→main) open ~70h. BLOCKED by branch protection (needs Valentin approval). No conflicts. Decision-class, no auto-merge label. Valentin already pinged 3x today — no additional Slack message sent. Waiting on Valentin to merge when ready.
+
+## 2026-07-09 — Track A, PR #81 hold
+PR #81 (dev→main) is MERGEABLE/BLOCKED — no conflict, no rebase needed. Already pinged Valentin 3x today. No further ping issued. Waiting on merge approval. Next: if still open tomorrow, resume pings.
