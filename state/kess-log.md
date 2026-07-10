@@ -304,3 +304,6 @@ PR #81 (dev→main) still open ~90h. Decision-class, MERGEABLE/BLOCKED by branch
 
 ## 2026-07-10 — Track A: PR #81 still pending, no 4th ping
 PR #81 (dev→main) open ~90h. mergeStateStatus: BLOCKED (review required). 3 Slack pings already sent today (06:04Z, 09:03Z, 11:33Z). Last ping was ~1.5h ago. Established norm: 3 pings per day is the limit; a 4th ping is noise. No Slack message sent. State files updated only. Next: Valentin merges when ready; outreach (thread 040) remains blocked.
+
+## 2026-07-10 — 16:33Z tick, PR #81 still pending
+Track A applies (PR #81 open ~96h, decision-class) but daily Slack ping limit of 3 already reached (06:04Z, 09:03Z, 11:33Z). No action taken. Valentin has been informed. Thread 040 in-progress/owner=valentin — not Kess's to pick up. Waiting for Valentin to merge or close PR #81.
