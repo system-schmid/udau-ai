@@ -301,3 +301,6 @@ PR #81 (promote dev→main: tools 039 batch) has been open ~90h since 2026-07-07
 
 ## 2026-07-10 — Track A, no new ping (3 sent today, last <1h ago, T12:32Z)
 PR #81 (dev→main) still open ~90h. Decision-class, MERGEABLE/BLOCKED by branch protection. 3 pings already sent today (06:04Z, 09:03Z, 11:33Z). Last ping was <1h ago at 11:33Z — sending a 4th would be noise. No rebase needed, no conflicts. Waiting on Valentin to merge. Thread 040-option-b-execute remains in-progress, prerequisite is #81 merge.
+
+## 2026-07-10 — Track A: PR #81 still pending, no 4th ping
+PR #81 (dev→main) open ~90h. mergeStateStatus: BLOCKED (review required). 3 Slack pings already sent today (06:04Z, 09:03Z, 11:33Z). Last ping was ~1.5h ago. Established norm: 3 pings per day is the limit; a 4th ping is noise. No Slack message sent. State files updated only. Next: Valentin merges when ready; outreach (thread 040) remains blocked.
