@@ -307,3 +307,6 @@ PR #81 (dev→main) open ~90h. mergeStateStatus: BLOCKED (review required). 3 Sl
 
 ## 2026-07-10 — 16:33Z tick, PR #81 still pending
 Track A applies (PR #81 open ~96h, decision-class) but daily Slack ping limit of 3 already reached (06:04Z, 09:03Z, 11:33Z). No action taken. Valentin has been informed. Thread 040 in-progress/owner=valentin — not Kess's to pick up. Waiting for Valentin to merge or close PR #81.
+
+## 2026-07-13 — Track A, no action (ping limit)
+PR #81 (dev→main, decision-class) still open. 3 Slack pings already sent today — limit reached. No further action taken. Waiting for Valentin to merge.
