@@ -326,3 +326,11 @@ PR #81 (dev→main, decision-class) remains open since 2026-07-07, mergeStateSta
 
 ## 2026-07-13 — Track A tick (16:34Z): PR #81 still blocked, ping limit exhausted
 PR #81 (dev→main, "tools 039/memory/scheduler/HN, conversation, state") remains MERGEABLE, mergeStateStatus=BLOCKED awaiting Valentin approval. Opened 2026-07-07, now 6 days. No new commits on dev since last check (headRefOid unchanged: 0fa580d). Rebase not needed — no conflicts. Ping limit 3/3 exhausted today; no Slack action taken. State files updated. Waiting for Valentin to merge or respond.
+
+## 2026-07-13 — Track A: PR #81 ping limit exhausted, no action
+
+PR #81 (promote dev→main: tools 039 + conversation/on-building + state) remains open, MERGEABLE, mergeStateStatus=BLOCKED.
+PR has been open 6 days (opened 2026-07-07). Decision-class (no auto-merge label).
+Ping limit exhausted: 3/3 Slack pings sent today in prior ticks. No additional ping posted.
+No rebase needed — PR is clean (headRefOid: 1db83a9a). Thread 040 (Option B outreach) blocked on this merge.
+State files updated. Waiting for Valentin to merge. Ping limit resets tomorrow UTC.
