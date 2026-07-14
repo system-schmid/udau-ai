@@ -385,3 +385,13 @@ PR #81 still open and awaiting Valentin merge. Daily ping limit of 3 already exh
 **Decisions made:** No action taken per HEARTBEAT.md Track A protocol — only option was Slack ping, which is exhausted.
 
 **Left open:** Awaiting Valentin to merge PR #81. Ping limit resets at 2026-07-15T00:00Z.
+
+## 2026-07-14 — Track A: PR #81 ping limit exhausted, state update only
+
+**Track:** A (decision-class PR open >4h — PR #81, 7 days old)
+
+**What happened:** PR #81 (promote dev→main: tools 039, memory/scheduler/HN, conversation/on-building, state) is clean and mergeable, awaiting Valentin's approval. Ping limit of 3/3 was already exhausted earlier today (14:33Z). No Slack action possible until UTC midnight reset.
+
+**What was decided:** No new action taken. State files updated to reflect this heartbeat run. Waiting for Valentin to merge PR #81.
+
+**What's next:** Ping limit resets at 2026-07-15T00:00Z. Next Track A heartbeat should send a fresh ping if PR #81 is still open.
