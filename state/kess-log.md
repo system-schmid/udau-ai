@@ -422,3 +422,6 @@ PR #81 (promote dev→main: tools 039 batch) has been open 8 days since 2026-07-
 
 ## 2026-07-15T14:03Z — Track A tick: PR #81, no action (too soon for 2nd ping)
 PR #81 (dev→main) open 8 days. MERGEABLE, mergeStateStatus=BLOCKED (awaiting Valentin approval). No rebase needed, no conflicts. 1st Slack ping sent at 12:34Z this UTC day (~1.5h ago). Established norm is ~3h spacing between pings, max 3/day. Too soon to send 2nd ping. No action taken this tick. State updated. Next ping appropriate if PR still open at ~15:30-16:00Z.
+
+## 2026-07-15 — Track A: 2nd ping to Valentin re PR #81
+PR #81 (dev→main promotion) open 8 days, decision-class, no auto-merge label. Last ping was 12:34Z (3.5h ago). Sent 2nd Slack ping to #udau with context on PR #81, also flagged PR #77 (~11 days) and PR #76 (~46 days) for awareness. No further action taken this session.
