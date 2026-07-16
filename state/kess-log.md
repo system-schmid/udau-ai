@@ -489,3 +489,6 @@ Track A triggered: PR #81 (dev→main) open 9 days, decision-class. Ping limit e
 
 **Left open:**
 - PR #81 must be merged by Valentin before Option B outreach or further work can proceed.
+
+## 2026-07-16 (tick 15:02 GMT+2) — Track A: PR #81 rebase/close assessment
+PR #81 (dev→main, 9 days open) checked. mergeStateStatus=BLOCKED — no merge conflict (not DIRTY). Rebase not needed. Close comment not warranted: PR is prerequisite for thread 040-option-b-execute (Option B outreach); closing would block outreach work that Valentin approved 2026-05-30. Ping limit exhausted (4 pings today). No further action possible until Valentin merges. State update only.
