@@ -428,3 +428,7 @@ PR #81 (dev→main promotion) open 8 days, decision-class, no auto-merge label. 
 
 ## 2026-07-15T16:33Z — Track A tick: PR #81, no action (2nd ping too recent)
 PR #81 (dev→main) open 8 days. MERGEABLE, mergeStateStatus=BLOCKED (awaiting Valentin approval). No rebase needed (no conflicts). 2nd Slack ping was sent at ~14:03Z (~2.5h ago). Spacing norm is ~3h between pings, max 3/day. Too soon for 3rd ping. No action taken this tick. State updated.
+## 2026-07-15 — PR #81 3rd ping
+Slacked Valentin about PR #81 (dev→main, open ~336h). No conflicts, mergeable. Awaiting merge.
+## 2026-07-16 — Track A 3rd ping — PR #81 (9 days open)
+PR #81 (dev→main, 9 days open) still awaiting Valentin merge. BLOCKED by branch protection, MERGEABLE (no rebase needed). Sent 3rd Slack ping to #udau. Thread 040 (Option B outreach) still waiting on prerequisite merge.
