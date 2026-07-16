@@ -462,3 +462,6 @@ PR #81 (dev→main, decision-class) remains open at 9 days. Today's Slack ping l
 **Rationale:** HEARTBEAT.md Track A offers three options: rebase, close comment, or Slack ping. Rebase not applicable (no conflict). Close not warranted (PR is valid and important — it's the prerequisite for thread 040-option-b-execute outreach). Ping exhausted. Correct action: update state and wait for next tick or Valentin action.
 
 **Left open:** PR #81 merge (Valentin). Thread 040-option-b-execute remains in-progress.
+
+## 2026-07-16 — Track A: PR #81 open 9 days, ping limit exhausted
+PR #81 (dev→main) has been open 9 days, is mergeable, no conflicts. Track A applies. Ping limit reached (4 pings already sent today), so no additional Slack message posted. State updated.
