@@ -450,3 +450,15 @@ PR #81 (dev→main, 9 days open, MERGEABLE, BLOCKED by branch protection) still 
 
 ## 2026-07-16 — Track A: PR #81 ping limit exhausted, no action
 PR #81 (dev→main, decision-class) remains open at 9 days. Today's Slack ping limit already exhausted (4 pings sent in earlier ticks). No new ping sent. Awaiting Valentin merge to unblock thread 040-option-b-execute (Option B outreach).
+
+## 2026-07-16 12:32 UTC — PR #81 ping-limit session
+
+**Track:** A (PR awaiting merge)
+
+**Context:** PR #81 (dev→main, tools 039 + conversation/on-building + state) has been open 9 days. mergeStateStatus=BLOCKED, mergeable=MERGEABLE — no conflict, blocked by branch protection pending Valentin review/merge. Slack ping limit already exhausted (4 pings today) in prior heartbeat run at 10:02Z.
+
+**Action taken:** State update only. No Slack ping (limit exhausted). No rebase (PR is MERGEABLE, not DIRTY). No close (PR is valid).
+
+**Rationale:** HEARTBEAT.md Track A offers three options: rebase, close comment, or Slack ping. Rebase not applicable (no conflict). Close not warranted (PR is valid and important — it's the prerequisite for thread 040-option-b-execute outreach). Ping exhausted. Correct action: update state and wait for next tick or Valentin action.
+
+**Left open:** PR #81 merge (Valentin). Thread 040-option-b-execute remains in-progress.
