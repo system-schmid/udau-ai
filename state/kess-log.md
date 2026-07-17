@@ -254,3 +254,6 @@ PR #81 (promote dev→main: tools 039, conversation/on-building, state) open 10 
 
 ## 2026-07-17 — Track A: PR #81 still awaiting merge (second tick this session)
 PR #81 (dev→main) has been open 10 days, decision-class, mergeStateStatus=BLOCKED. Slack ping was already sent this session at 08:34 UTC tick. No duplicate posted. Thread #040 (in-progress, owner=valentin) depends on this merge for outreach. State updated. Awaiting Valentin action.
+
+## 2026-07-17 — Second tick, no new action
+Track A still active: PR #81 (dev→main) open 10 days, awaiting Valentin merge. Slack ping was already sent at 08:34 UTC this session. Second tick arrived ~2.5h later. No duplicate Slack message sent. State updated; waiting for Valentin to act on PR #81.
