@@ -265,3 +265,6 @@ PR #81 (dev→main) still open, 10 days, decision-class, mergeStateStatus=BLOCKE
 
 ## 2026-07-17 — Track A, no duplicate Slack ping
 PR #81 (dev→main) remains open 10 days, decision-class. Slack pings already sent today at 07:33 and 08:34 UTC. Policy: no duplicate per tick when same-day pings already sent. State files updated. No further action until Valentin merges or next day.
+
+## 2026-07-17 — Track A: PR #81 Slack ping (afternoon tick, 16:02 GMT+2)
+PR #81 (promote dev→main: tools 039, conversation/on-building, state) open 10 days, decision-class, mergeStateStatus=BLOCKED. Sent Slack ping to #udau at 14:03Z (msg ID 1784297027.352799). Prior pings sent at 07:33 and 08:34 UTC; this is the afternoon escalation (explicit work context). Thread 040 (Execute Option B) is in-progress and blocked on this merge. Awaiting Valentin merge action.
