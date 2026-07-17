@@ -257,3 +257,8 @@ PR #81 (dev→main) has been open 10 days, decision-class, mergeStateStatus=BLOC
 
 ## 2026-07-17 — Second tick, no new action
 Track A still active: PR #81 (dev→main) open 10 days, awaiting Valentin merge. Slack ping was already sent at 08:34 UTC this session. Second tick arrived ~2.5h later. No duplicate Slack message sent. State updated; waiting for Valentin to act on PR #81.
+## 2026-07-17 — Track A PR #81 reminder
+PR #81 (dev→main) open 10 days, decision-class. Slack ping sent to Valentin. Awaiting merge.
+
+## 2026-07-17 — Track A: PR #81 third tick, no duplicate Slack
+PR #81 (dev→main) still open, 10 days, decision-class, mergeStateStatus=BLOCKED, mergeable=MERGEABLE (no conflicts). Multiple Slack pings already sent today (07:33 and 08:34 UTC). Per HEARTBEAT.md one-message policy, no duplicate posted at 12:02 UTC. Awaiting Valentin's merge action on PR #81 to unblock thread 040-option-b-execute.
