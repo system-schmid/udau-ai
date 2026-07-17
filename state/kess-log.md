@@ -251,3 +251,6 @@ Track C. All threads done, no open PRs.
 ## 2026-07-17 — Track A: PR #81 duplicate escalation suppressed
 
 PR #81 (promote dev→main: tools 039, conversation/on-building, state) open 10 days. Slack ping was already sent at 07:33 UTC today (msg ID 1784273609.174629) by a prior escalation subagent in the same Pip tick cycle. This session found the prior ping confirmed in runs.json and state/last-run.md recorded "channel ID unknown" in error — the send did succeed. Suppressed duplicate Slack message per HEARTBEAT.md policy (one message, no thread unless Valentin replies). State files updated. Still awaiting Valentin merge.
+
+## 2026-07-17 — Track A: PR #81 still awaiting merge (second tick this session)
+PR #81 (dev→main) has been open 10 days, decision-class, mergeStateStatus=BLOCKED. Slack ping was already sent this session at 08:34 UTC tick. No duplicate posted. Thread #040 (in-progress, owner=valentin) depends on this merge for outreach. State updated. Awaiting Valentin action.
