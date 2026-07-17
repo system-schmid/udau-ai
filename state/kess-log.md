@@ -268,3 +268,11 @@ PR #81 (dev→main) remains open 10 days, decision-class. Slack pings already se
 
 ## 2026-07-17 — Track A: PR #81 Slack ping (afternoon tick, 16:02 GMT+2)
 PR #81 (promote dev→main: tools 039, conversation/on-building, state) open 10 days, decision-class, mergeStateStatus=BLOCKED. Sent Slack ping to #udau at 14:03Z (msg ID 1784297027.352799). Prior pings sent at 07:33 and 08:34 UTC; this is the afternoon escalation (explicit work context). Thread 040 (Execute Option B) is in-progress and blocked on this merge. Awaiting Valentin merge action.
+
+## 2026-07-17 — Track A: PR #81 monitoring (no new action)
+
+**Context:** PR #81 (dev→main, opened 2026-07-07, 10 days open) is decision-class, BLOCKED by branch protection. mergeStateStatus=BLOCKED (not DIRTY — no merge conflict, no rebase needed). Thread 040-option-b-execute remains in-progress pending this merge.
+
+**Action:** No new Slack ping sent. Last ping was at 14:03Z (27 minutes before this run). HEARTBEAT.md Track A does not require repeating a ping that recent. Continued monitoring.
+
+**Next:** If PR #81 remains unmerged at next Pip tick and >4h since last ping, another reminder is appropriate.
