@@ -276,3 +276,6 @@ PR #81 (promote dev→main: tools 039, conversation/on-building, state) open 10 
 **Action:** No new Slack ping sent. Last ping was at 14:03Z (27 minutes before this run). HEARTBEAT.md Track A does not require repeating a ping that recent. Continued monitoring.
 
 **Next:** If PR #81 remains unmerged at next Pip tick and >4h since last ping, another reminder is appropriate.
+
+## 2026-07-17 17:02 — Track A monitoring tick
+PR #81 (dev→main) still open and BLOCKED awaiting Valentin approval. No rebase needed. No new Slack ping sent — last ping was at ~14:03Z, within acceptable interval. Continued monitoring.
