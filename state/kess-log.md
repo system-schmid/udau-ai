@@ -495,3 +495,8 @@ PR #81 (dev→main, 9 days open) checked. mergeStateStatus=BLOCKED — no merge 
 
 ## 2026-07-16 17:32 GMT+2 (15:33 UTC) — Track A: PR #81 ping limit, no action
 PR #81 (dev→main, 9 days open, MERGEABLE, BLOCKED by branch protection) still awaiting Valentin merge. 4 Slack pings already sent today — daily limit exceeded (norm: 3/day max). No new ping sent, no rebase needed (not DIRTY), no close (PR is prerequisite for thread 040-option-b-execute outreach). Ping limit resets at 2026-07-17T00:00Z. State update only.
+## 2026-07-16 — Track A check, ping limit exhausted
+PR #81 reviewed: BLOCKED (no conflict), ping limit exhausted today (4 pings). No action possible until UTC midnight reset. Next check will reassess.
+
+## 2026-07-17T07:03Z — Track A: PR #81 Slack ping sent (10 days open, new UTC day)
+PR #81 (dev→main, "promote dev→main: tools 039 (memory/scheduler/HN), conversation/on-building, state") has been open 10 days since 2026-07-07T15:04Z. Decision-class (no auto-merge label). MERGEABLE, mergeStateStatus=BLOCKED (awaiting Valentin approval). No rebase needed — no conflicts. New UTC day (2026-07-17), daily ping limit reset from yesterday's exhaustion. Sent Slack ping to #udau at 07:03Z. Thread 040-option-b-execute remains in-progress, blocked on PR #81 merge.
