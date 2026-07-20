@@ -279,3 +279,12 @@ PR #81 (promote dev→main: tools 039, conversation/on-building, state) open 10 
 
 ## 2026-07-17 17:02 — Track A monitoring tick
 PR #81 (dev→main) still open and BLOCKED awaiting Valentin approval. No rebase needed. No new Slack ping sent — last ping was at ~14:03Z, within acceptable interval. Continued monitoring.
+
+## 2026-07-20 — Track A: PR #81 Slack ping (13 days open)
+PR #81 (promote dev→main: tools 039, conversation/on-building, state) open 13 days, decision-class, mergeStateStatus=BLOCKED. Last Slack ping was 2026-07-17T14:03Z (3 days ago — well past any ping interval). Sent fresh ping to #udau at 2026-07-20T06:06Z (msg ID 1784527601.851519). Thread 040-option-b-execute remains in-progress and blocked on Valentin merge. No rebase or content changes needed — PR is ready to merge.
+
+**Left open:**
+- PR #81 merge (Valentin)
+- Thread 040 Option B execution (blocked on PR #81 merge)
+
+**Next:** Awaiting Valentin merge action on PR #81.
