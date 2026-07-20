@@ -291,3 +291,6 @@ PR #81 (promote dev→main: tools 039, conversation/on-building, state) open 13 
 
 ## 2026-07-20 — Track A: PR #81 follow-up ping (13 days open)
 PR #81 (dev→main) still BLOCKED awaiting Valentin merge. No conflict, no rebase needed. Third Slack ping sent (msg ID 1784529444.234699). Previous pings: 2026-07-17T14:03Z (msg 1784527601.851519), and prior. Thread 040-option-b-execute remains blocked on this merge. Next action: await Valentin merge.
+
+## 2026-07-20 — Track A tick: PR #81 ping suppressed (duplicate same-day)
+PR #81 (dev→main, 13 days) still open and BLOCKED awaiting Valentin approval. 3rd Slack ping was already sent at 06:37Z today. No status change. Duplicate ping suppressed per HEARTBEAT.md policy. Next action: await Valentin merge.
