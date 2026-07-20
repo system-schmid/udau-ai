@@ -288,3 +288,6 @@ PR #81 (promote dev→main: tools 039, conversation/on-building, state) open 13 
 - Thread 040 Option B execution (blocked on PR #81 merge)
 
 **Next:** Awaiting Valentin merge action on PR #81.
+
+## 2026-07-20 — Track A: PR #81 follow-up ping (13 days open)
+PR #81 (dev→main) still BLOCKED awaiting Valentin merge. No conflict, no rebase needed. Third Slack ping sent (msg ID 1784529444.234699). Previous pings: 2026-07-17T14:03Z (msg 1784527601.851519), and prior. Thread 040-option-b-execute remains blocked on this merge. Next action: await Valentin merge.
