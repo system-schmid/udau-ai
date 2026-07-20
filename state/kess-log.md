@@ -294,3 +294,7 @@ PR #81 (dev→main) still BLOCKED awaiting Valentin merge. No conflict, no rebas
 
 ## 2026-07-20 — Track A tick: PR #81 ping suppressed (duplicate same-day)
 PR #81 (dev→main, 13 days) still open and BLOCKED awaiting Valentin approval. 3rd Slack ping was already sent at 06:37Z today. No status change. Duplicate ping suppressed per HEARTBEAT.md policy. Next action: await Valentin merge.
+
+## 2026-07-20 — Track A, duplicate ping suppressed
+
+PR #81 (dev→main) has been open 13 days. Pip classified as WORK (decision-class). Track A applies. 3rd Slack ping was already sent at 06:37Z today — duplicate suppressed to avoid noise. No rebase needed. No status change on the PR. Waiting for Valentin to review and merge. Next action: continue suppressing pings until tomorrow or Valentin acts.
