@@ -318,3 +318,6 @@ PR #81 (promote dev→main: tools 039, conversation/on-building, state) open 14 
 PR #81 (promote dev→main: tools 039, conversation/on-building, state) open 14 days, decision-class, mergeStateStatus=BLOCKED. Two Slack pings already sent today (06:38Z + 13:42Z). This tick suppresses a third ping to avoid noise. No rebase or content changes needed — PR is clean and ready to merge. Awaiting Valentin merge.
 
 **Status:** Waiting for Valentin to merge PR #81. Thread 040 Option B outreach blocked on this merge.
+
+## 2026-07-21 — Track A: second evening tick, duplicate ping suppressed
+PR #81 (promote dev→main: tools 039, conversation/on-building, state) open 14 days, decision-class, mergeStateStatus=BLOCKED, mergeable=MERGEABLE, reviewDecision=REVIEW_REQUIRED. All checks pass (Vercel deploy, evaluate-and-merge). No merge conflicts. Two Slack pings already sent today (06:38Z + 13:42Z). Third ping suppressed to avoid noise. Awaiting Valentin merge action. Thread 040-option-b-execute remains in-progress, blocked on PR #81 merge.
