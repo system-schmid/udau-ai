@@ -321,3 +321,6 @@ PR #81 (promote dev→main: tools 039, conversation/on-building, state) open 14 
 
 ## 2026-07-21 — Track A: second evening tick, duplicate ping suppressed
 PR #81 (promote dev→main: tools 039, conversation/on-building, state) open 14 days, decision-class, mergeStateStatus=BLOCKED, mergeable=MERGEABLE, reviewDecision=REVIEW_REQUIRED. All checks pass (Vercel deploy, evaluate-and-merge). No merge conflicts. Two Slack pings already sent today (06:38Z + 13:42Z). Third ping suppressed to avoid noise. Awaiting Valentin merge action. Thread 040-option-b-execute remains in-progress, blocked on PR #81 merge.
+
+## 2026-07-21 — Track A: PR #81 duplicate ping suppression (3rd)
+PR #81 (dev→main, 14 days open) is MERGEABLE (no git conflict) but BLOCKED by branch protection — requires Valentin merge. No rebase or conflict resolution available/needed. Third ping today suppressed (prior pings at 06:38Z and 13:42Z already sent). Awaiting Valentin action on PR #81 to unblock thread 040 (Option B outreach).
