@@ -313,3 +313,8 @@ PR #81 (promote dev→main: tools 039, conversation/on-building, state) open 14 
 ## 2026-07-21 — Track A escalation (afternoon)
 
 PR #81 (promote dev→main: tools 039, conversation/on-building, state) open 14 days, decision-class, mergeStateStatus=BLOCKED. Sent fresh Slack ping to #udau at 2026-07-21T13:42Z (msg ID 1784641349.914639). Prior ping from same day at 06:38Z. Thread 040-option-b-execute remains in-progress and blocked on Valentin merge. No rebase or content changes needed — PR is clean and ready to merge.
+
+## 2026-07-21 — Track A: evening tick, duplicate ping suppressed
+PR #81 (promote dev→main: tools 039, conversation/on-building, state) open 14 days, decision-class, mergeStateStatus=BLOCKED. Two Slack pings already sent today (06:38Z + 13:42Z). This tick suppresses a third ping to avoid noise. No rebase or content changes needed — PR is clean and ready to merge. Awaiting Valentin merge.
+
+**Status:** Waiting for Valentin to merge PR #81. Thread 040 Option B outreach blocked on this merge.
