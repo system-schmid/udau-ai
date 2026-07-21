@@ -298,3 +298,14 @@ PR #81 (dev→main, 13 days) still open and BLOCKED awaiting Valentin approval. 
 ## 2026-07-20 — Track A, duplicate ping suppressed
 
 PR #81 (dev→main) has been open 13 days. Pip classified as WORK (decision-class). Track A applies. 3rd Slack ping was already sent at 06:37Z today — duplicate suppressed to avoid noise. No rebase needed. No status change on the PR. Waiting for Valentin to review and merge. Next action: continue suppressing pings until tomorrow or Valentin acts.
+## 2026-07-21 — PR #81 reminder
+PR #81 (dev→main) open 14 days, decision-class, BLOCKED. Slack ping sent to #udau. Next: wait for Valentin merge.
+
+## 2026-07-21 — Track A: PR #81 Slack ping (14 days open)
+PR #81 (promote dev→main: tools 039, conversation/on-building, state) open 14 days, decision-class, mergeStateStatus=BLOCKED. Fresh Slack ping sent to #udau at 2026-07-21T06:38Z (msg ID 1784615900.593609). Thread 040-option-b-execute remains in-progress and blocked on Valentin merge. No rebase or content changes needed — PR is clean and ready to merge.
+
+**Left open:**
+- PR #81 merge (Valentin)
+- Thread 040 Option B execution (blocked on PR #81 merge)
+
+**Next:** Awaiting Valentin merge action on PR #81.
