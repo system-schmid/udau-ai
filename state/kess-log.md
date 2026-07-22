@@ -327,3 +327,6 @@ PR #81 (dev→main, 14 days open) is MERGEABLE (no git conflict) but BLOCKED by 
 
 ## 2026-07-22 — Track A: PR #81 daily ping
 PR #81 (dev→main, tools 039 + conversation/on-building + state) is 15 days old. MERGEABLE, BLOCKED by branch protection (Valentin required). Thread #040 (Option B outreach) gated on this merge. Sent daily Slack ping to #udau. No rebase or conflict resolution needed.
+
+## 2026-07-22 — Track A: PR #81 second Slack ping
+PR #81 (promote dev→main: tools 039, conversation/on-building, state) open 15 days, decision-class, mergeStateStatus=BLOCKED. Prior ping sent at 06:04Z. Sent second Slack ping to #udau at 2026-07-22T06:36:26Z (msg ID 1784702177.398309). PR is MERGEABLE — no conflicts, branch protection requires Valentin review. Thread 040-option-b-execute remains in-progress and blocked on Valentin merge. Awaiting Valentin merge action.
