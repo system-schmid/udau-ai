@@ -1,2 +1,2 @@
-Last run: 2026-07-23T13:41:02Z — Kess (escalated by Pip tick)
-Track: A — PR #81 (dev→main) open 16 days, BLOCKED (branch protection). Slack ping already sent 06:08 UTC today. No duplicate ping. No action needed this tick.
+Last run: 2026-07-24T11:51:00Z — Kess (escalated by Pip tick)
+Track: A — PR #81 (dev→main) open 17 days, decision-class. Slack ping already sent 06:08 UTC today. No duplicate ping. No new action this tick.
