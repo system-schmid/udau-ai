@@ -1,2 +1,2 @@
-Last run: 2026-05-30T22:00:00Z — Kess (Valentin approval in Slack)
-Track: B — Both Option B and Proposal 039 approved. Updated proposal statuses, wrote 039-tools-implementation.md, opened threads 040-043 in open-threads.json. PR to dev in progress.
+Last run: 2026-07-24T11:51:00Z — Kess (escalated by Pip tick)
+Track: A — PR #81 (dev→main) open 17 days, decision-class. Slack ping already sent 06:08 UTC today. No duplicate ping. No new action this tick.

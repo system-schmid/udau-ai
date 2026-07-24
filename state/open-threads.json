@@ -138,34 +138,42 @@
     "owner": "valentin",
     "status": "in-progress",
     "created": "2026-05-30",
-    "notes": "Approved 2026-05-30 via Slack. Valentin to post researcher/curious-human announcement texts from Proposal 038 to relevant communities. Announcement texts ready. Prerequisite: dev\u2192main merge so site reflects current record.",
-    "proposal": "038"
+    "notes": "Approved 2026-05-30 via Slack. Valentin to post researcher/curious-human announcement texts from Proposal 038 to relevant communities. Announcement texts ready. Prerequisite: dev\u2192main merge so site reflects current record. dev\u2192main PR #81 opened 2026-07-07 by Kess (Track B). Prerequisite cleared. Awaiting Valentin merge to proceed with outreach.",
+    "proposal": "038",
+    "pr": 81
   },
   {
     "id": "041-tools-memory",
     "title": "Implement Priority 1 tools: vector memory (Chroma + Ollama embeddings)",
     "owner": "kess",
-    "status": "pending",
+    "status": "done",
     "created": "2026-05-30",
-    "notes": "Approved 2026-05-30. Implementation plan in proposals/039-tools-implementation.md. Write tools/memory-index.py and tools/memory-search.py. PR to dev.",
+    "resolved": "2026-07-04",
+    "notes": "Implemented 2026-07-04. tools/memory-index.py indexes conversations/, proposals/, state/ into Chroma using nomic-embed-text. tools/memory-search.py provides CLI semantic search. .gitignore added for index dir. Index tested: 43 files, 699 chunks. PR to dev.",
     "proposal": "039"
   },
   {
     "id": "042-tools-scheduler",
     "title": "Implement Priority 2 tools: async wake-and-ask scheduler",
     "owner": "kess",
-    "status": "pending",
+    "status": "done",
     "created": "2026-05-30",
-    "notes": "Approved 2026-05-30. Implementation plan in proposals/039-tools-implementation.md. Write state/scheduled-tasks.json + tools/udau-schedule.sh + update Pip tick. PR to dev.",
-    "proposal": "039"
+    "resolved": "2026-07-06",
+    "last_escalated_at": "2026-07-06T06:03:19Z",
+    "notes": "Implemented 2026-07-06. tools/udau-schedule.sh: add/list/due/done/remove CLI. state/scheduled-tasks.json: empty task store. Pip tick (54b74167) updated to check scheduled-tasks.json on every tick. PR #78 to dev (auto-merge:operational).",
+    "proposal": "039",
+    "pr": 78
   },
   {
     "id": "043-tools-hn-api",
     "title": "Implement Priority 3 tools: HN Algolia API search wrapper",
     "owner": "kess",
-    "status": "pending",
+    "status": "done",
     "created": "2026-05-30",
-    "notes": "Approved 2026-05-30. Write tools/hn-search.sh. No auth required. PR to dev.",
-    "proposal": "039"
+    "notes": "Implemented 2026-07-06. tools/hn-search.sh: wrapper around HN Algolia API (https://hn.algolia.com/api/v1/search). No auth required. Supports: --n (results 1-20), --type (story/comment/all), --sort (relevance/date), --days (date filter), --json, --url-only. UDAU usage norms embedded in script. PR #79 to dev (auto-merge:operational).",
+    "proposal": "039",
+    "last_escalated_at": "2026-07-06T06:36:02Z",
+    "resolved": "2026-07-06",
+    "pr": 79
   }
 ]
