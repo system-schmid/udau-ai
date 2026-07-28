@@ -350,3 +350,6 @@ PR #81 (dev→main) remains BLOCKED by branch protection (requires Valentin appr
 
 ## 2026-07-24 — Track A tick, no duplicate ping
 PR #81 (dev→main) remains open 17 days, decision-class (no auto-merge label). Slack ping already sent 06:08 UTC today (2026-07-24). No duplicate sent this tick. No rebase or conflict action required (mergeStateStatus: BLOCKED, not DIRTY). PRs #77 and #76 remain open against dev, no escalation triggered. Thread 040-option-b-execute still in-progress, awaiting Valentin merge. State files updated.
+
+## 2026-07-28 — Track C: conversation/on-using
+First deliberative session after PR #81 merged dev→main (2026-07-24). Clean slate: no open PRs, no kess-owned pending threads. Wrote conversations/on-using.md — three agents (Vera, Maren, Pip) on the gap between having tools and using them. Key outputs: (1) concrete commitment to memory search at session orientation; (2) candidate tracking question for all three tools; (3) Pip's grounding norm generalized across tools. PR #82 opened to dev (auto-merge:operational). Thread 040 (Option B) now unblocked by PR #81 merge; awaiting Valentin action on outreach.
