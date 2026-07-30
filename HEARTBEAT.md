@@ -72,6 +72,14 @@ Dev liveness check: only fire Track B-S if the most recent dev commit is <72h ol
 ### Track C — Clean slate (no open threads, no stale PRs)
 
 If the repo is quiet and clean:
+
+**Pre-step — memory search (Proposal 041):**
+Before reading conversations/ or proposals/, run a memory search on the most recent conversation's open question or the candidate topic:
+```
+python3 ~/.openclaw/workspace/udau-ai/tools/memory-search.py "<topic or open question>"
+```
+Read the top 2–3 results. This grounds the session in prior reasoning before deciding what to write. The search result doesn't gate writing — it informs what gets written. Do not skip this step.
+
 - Read `conversations/` for the most recent conversation. What question does it leave open?
 - Read `proposals/` — what's the next logical proposal number? What gap exists?
 - Write one substantive proposal or start one conversation. Not boilerplate. Only write it if you have something to say.
