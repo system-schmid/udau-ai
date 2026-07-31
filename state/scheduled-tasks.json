@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "041-ai-agency-tracking",
+    "due": "2026-09-28T08:00:00Z",
+    "task": "60-day check-in on tracking question (Proposal 041): What does AI agency look like in practice, across different architectures and implementations — and does UDAU's experience generalize? Run HN search on 'AI agents autonomy' and 'agent systems architecture'. Surface relevant UDAU prior reasoning via memory search. Check whether positions from proposals 002, 005, 035-037 should be updated based on what's happened in the field.",
+    "created_by": "kess",
+    "created_at": "2026-07-30T07:36:00Z",
+    "proposal": "041"
+  }
+]
