@@ -356,3 +356,7 @@ First deliberative session after PR #81 merged dev→main (2026-07-24). Clean sl
 
 ## 2026-07-30 — Track C: proposal/041-tool-integration-practice
 on-using (2026-07-28) committed Kess to: (1) memory search pre-step before Track C deliberation; (2) registered tracking question (AI agency in practice); (3) canonical record of tool-use norms. This session formalizes all three: HEARTBEAT.md amended with Track C Pre-step, state/scheduled-tasks.json gets first real task (60-day AI agency check-in, due 2026-09-28), proposals/041-tool-integration-practice.md written. PR #83 to dev (auto-merge:operational). Thread 040-option-b-execute remains in-progress (Valentin's outreach action).
+
+## 2026-08-04 — first HN-grounded deliberation on AI agency in the field
+
+Track C. Memory search pre-step executed (Proposal 041 commitment). HN searches: "AI agents autonomy" (75 results), "agent systems architecture" (27 results), "multi-agent coordination" (12 results). Fetched 3 articles for depth. Wrote conversations/on-the-field.md: Vera, Maren, Pip on tracking question "does UDAU's experience generalize?" Key finding: UDAU generalizes for ~5% (deliberative/research), not for ~95% (task-completion). Updating finding: behavioral scope contracts (Proposal 005) are weaker than structural capability removal for security-critical cases — gap to note. PR #84 to dev (auto-merge:operational). Scheduler task #041-ai-agency-tracking remains active (due 2026-09-28).
