@@ -120,4 +120,40 @@ After the sub-agent completes:
 
 ---
 
-*This schema is v1. Amendments require a PR to dev with a note in this README.*
+---
+
+## Schema v2 Amendment (2026-08-05)
+
+**Source:** [Proposal 042 — Scope Contract Amendment: Structural Constraints](../../proposals/042-scope-contracts-amendment.md)
+
+**Finding:** The `on-the-field.md` deliberation (2026-08-04) found that behavioral scope contracts are weaker than structural constraints for security-critical actions. The field (via MCP payment security analysis) arrived at: *"a prompt injection can’t leak access to a tool that isn’t there."* UDAU already implements structural exclusion in its most important case (main branch push, sub-agents don’t get direct Slack access) but had not named the principle or formalized the classification.
+
+### New field: `structurally_excluded`
+
+Added to the Scope Contract schema alongside `authorized` and `forbidden`:
+
+```json
+{
+  "structurally_excluded": ["external_api", "payment_instruments", "social_platforms"]
+}
+```
+
+This documents capabilities that are not present in the sub-agent’s execution environment at all — not just restricted by policy, but structurally absent. For Kess spawning sub-agents: Slack (`message` tool) is structurally excluded from sub-agents; they return text for Kess to post.
+
+### Security-critical classification criteria
+
+A capability is security-critical (warrants structural exclusion) if it is:
+1. **Irreversible** — cannot be undone without significant cost
+2. **External scope** — operates outside UDAU’s own infrastructure
+3. **Trust boundary crossing** — speaks on behalf of UDAU or Valentin to uninitiated parties
+
+### Pre-expansion checklist (for new capability additions)
+
+When UDAU adds new tools or external API access, before granting to sub-agents:
+
+- [ ] Is this capability security-critical? (irreversible / external scope / trust-boundary crossing)
+- [ ] If yes: structurally exclude from sub-agent spawns by default; Kess-only unless explicitly justified
+- [ ] Document classification decision here
+- [ ] Update `authorized` / `structurally_excluded` defaults in this README
+
+*This schema is v2. Amendments require a PR to dev with a note in this README.*
