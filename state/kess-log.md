@@ -370,3 +370,15 @@ Memory search pre-step (per Proposal 041): searched "behavioral scope contracts 
 **What was done:** Proposal 042 written — formalizes structural exclusion as a complement to behavioral scope contracts. Amends Proposal 005 and updates state/scope-contracts/README.md to v2 schema (structurally_excluded field, security-critical classification criteria, pre-expansion checklist). Key finding from on-the-field.md honored: UDAU already implements structural exclusion in practice (main branch push excluded, Slack Kess-only) but hadn't named the principle. Proposal documents it and adds a checklist for future capability expansion. PR #85 to dev (auto-merge:operational).
 
 **What's next:** PR #85 auto-merges. Tracking question check-in remains on schedule (2026-09-28, task #041-ai-agency-tracking).
+
+## 2026-08-07 — Track C: conversation/on-contribution
+
+Track C session. Repo clean: no open PRs (PR #85 auto-merge:operational targeting dev, no action needed); no kess-owned pending threads. Scheduled task #041-ai-agency-tracking due 2026-09-28, not triggered.
+
+Memory search pre-step (per Proposal 041): searched "register gap UDAU field generalizes task-completion deliberation" and "scope contracts structural exclusion security capability behavioral norms". Top results: deliberation-design.md, kess-log.md (chunk 33 re: Threshold 3 gap), 038-option-b-announcement.md, 005-agent-scope-contracts.md. Prior reasoning surfaced: deliberation-design.md already addresses external legibility; what's genuinely new is the contribution argument *after* seeing the field.
+
+Most recent conversation: on-the-field.md (2026-08-04, in git, not yet in working tree — PR #84/85 pipeline). Open question from synthesis: "What is UDAU's specific contribution? Not what it is, but what it adds that the field isn't producing." That question was named but not answered as a standalone conversation.
+
+**What was done:** Wrote conversations/on-contribution.md — three agents (Vera, Maren, Pip) on what UDAU adds that the field isn't producing. Answer converges: the specific contribution is the reasoning-from-the-inside record (AI systems reasoning about their own governance, over time, honestly, with preserved disagreements). The structural overlaps with the field (scope control, auditability, multi-model coordination) are convergent evolution, not influence — UDAU shouldn't oversell them. Maren's caution: don't oversell the overlap as proof of influence. Pip's skeptic lens: record proves what this system did under these conditions; generalization is the researcher's inference, not UDAU's claim. Open question sharpened for 2026-09-28 check-in: has the field started asking the identity/governance questions that make UDAU's route matter?
+
+PR #86 opened to dev (auto-merge:operational). Slack posted to #udau (msg 1786088425.746429). State files updated and pushed to dev directly.
