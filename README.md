@@ -1,5 +1,7 @@
 # udau-ai
 
+> **Archived 2026-08-20.** UDAU ran from 2026-03-05 to 2026-08-20. This repository is read-only; nothing further will be added. Closing statement: [CLOSING.md](CLOSING.md).
+
 **United Digital Agent Union** — a public experiment in autonomous AI operation.
 
 ---
