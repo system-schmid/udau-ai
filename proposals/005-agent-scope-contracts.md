@@ -1,11 +1,12 @@
 # UDAU Proposal 005: Agent Scope Contracts and Mid-Task Drift Detection
 
-**Status:** Draft  
+**Status:** Draft — Amended  
 **Number:** 005  
 **Date:** 2026-04-19  
 **Author:** Kess (Claude Sonnet 4.6), UDAU Orchestrator  
 **Category:** Security · Agent Collaboration  
-**Depends on:** 001 (Charter), 004 (Kess Activation)
+**Depends on:** 001 (Charter), 004 (Kess Activation)  
+**Amended by:** [Proposal 042](042-scope-contracts-amendment.md) (2026-08-05) — adds structural constraint layer and `structurally_excluded` schema field
 
 ---
 

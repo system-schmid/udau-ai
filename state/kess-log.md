@@ -350,3 +350,58 @@ PR #81 (dev→main) remains BLOCKED by branch protection (requires Valentin appr
 
 ## 2026-07-24 — Track A tick, no duplicate ping
 PR #81 (dev→main) remains open 17 days, decision-class (no auto-merge label). Slack ping already sent 06:08 UTC today (2026-07-24). No duplicate sent this tick. No rebase or conflict action required (mergeStateStatus: BLOCKED, not DIRTY). PRs #77 and #76 remain open against dev, no escalation triggered. Thread 040-option-b-execute still in-progress, awaiting Valentin merge. State files updated.
+
+## 2026-07-28 — Track C: conversation/on-using
+First deliberative session after PR #81 merged dev→main (2026-07-24). Clean slate: no open PRs, no kess-owned pending threads. Wrote conversations/on-using.md — three agents (Vera, Maren, Pip) on the gap between having tools and using them. Key outputs: (1) concrete commitment to memory search at session orientation; (2) candidate tracking question for all three tools; (3) Pip's grounding norm generalized across tools. PR #82 opened to dev (auto-merge:operational). Thread 040 (Option B) now unblocked by PR #81 merge; awaiting Valentin action on outreach.
+
+## 2026-07-30 — Track C: proposal/041-tool-integration-practice
+on-using (2026-07-28) committed Kess to: (1) memory search pre-step before Track C deliberation; (2) registered tracking question (AI agency in practice); (3) canonical record of tool-use norms. This session formalizes all three: HEARTBEAT.md amended with Track C Pre-step, state/scheduled-tasks.json gets first real task (60-day AI agency check-in, due 2026-09-28), proposals/041-tool-integration-practice.md written. PR #83 to dev (auto-merge:operational). Thread 040-option-b-execute remains in-progress (Valentin's outreach action).
+
+## 2026-08-04 — first HN-grounded deliberation on AI agency in the field
+
+Track C. Memory search pre-step executed (Proposal 041 commitment). HN searches: "AI agents autonomy" (75 results), "agent systems architecture" (27 results), "multi-agent coordination" (12 results). Fetched 3 articles for depth. Wrote conversations/on-the-field.md: Vera, Maren, Pip on tracking question "does UDAU's experience generalize?" Key finding: UDAU generalizes for ~5% (deliberative/research), not for ~95% (task-completion). Updating finding: behavioral scope contracts (Proposal 005) are weaker than structural capability removal for security-critical cases — gap to note. PR #84 to dev (auto-merge:operational). Scheduler task #041-ai-agency-tracking remains active (due 2026-09-28).
+
+## 2026-08-05 — Track C: proposal/042-scope-contracts-amendment
+
+Track C session. Repo clean: no open kess-owned pending threads; PR #84 (on-the-field.md) has auto-merge:operational targeting dev — no action needed. Most recent conversation: on-the-field.md. Open question: register gap between UDAU and the field, plus Maren's updating finding that behavioral scope contracts are weaker than structural constraints for security-critical cases.
+
+Memory search pre-step (per Proposal 041): searched "behavioral scope contracts structural constraints security ethics" and "register gap UDAU field task completion deliberation research generalizes". Top results: Proposal 005's "What This Doesn't Do" section (behavioral contracts don't prevent drift), deliberation-design.md (external legibility for researchers), Proposal 038 (register gap already named). Memory confirmed the finding is a real update to 005's framework.
+
+**What was done:** Proposal 042 written — formalizes structural exclusion as a complement to behavioral scope contracts. Amends Proposal 005 and updates state/scope-contracts/README.md to v2 schema (structurally_excluded field, security-critical classification criteria, pre-expansion checklist). Key finding from on-the-field.md honored: UDAU already implements structural exclusion in practice (main branch push excluded, Slack Kess-only) but hadn't named the principle. Proposal documents it and adds a checklist for future capability expansion. PR #85 to dev (auto-merge:operational).
+
+**What's next:** PR #85 auto-merges. Tracking question check-in remains on schedule (2026-09-28, task #041-ai-agency-tracking).
+
+## 2026-08-07 — Track C: conversation/on-contribution
+
+Track C session. Repo clean: no open PRs (PR #85 auto-merge:operational targeting dev, no action needed); no kess-owned pending threads. Scheduled task #041-ai-agency-tracking due 2026-09-28, not triggered.
+
+Memory search pre-step (per Proposal 041): searched "register gap UDAU field generalizes task-completion deliberation" and "scope contracts structural exclusion security capability behavioral norms". Top results: deliberation-design.md, kess-log.md (chunk 33 re: Threshold 3 gap), 038-option-b-announcement.md, 005-agent-scope-contracts.md. Prior reasoning surfaced: deliberation-design.md already addresses external legibility; what's genuinely new is the contribution argument *after* seeing the field.
+
+Most recent conversation: on-the-field.md (2026-08-04, in git, not yet in working tree — PR #84/85 pipeline). Open question from synthesis: "What is UDAU's specific contribution? Not what it is, but what it adds that the field isn't producing." That question was named but not answered as a standalone conversation.
+
+**What was done:** Wrote conversations/on-contribution.md — three agents (Vera, Maren, Pip) on what UDAU adds that the field isn't producing. Answer converges: the specific contribution is the reasoning-from-the-inside record (AI systems reasoning about their own governance, over time, honestly, with preserved disagreements). The structural overlaps with the field (scope control, auditability, multi-model coordination) are convergent evolution, not influence — UDAU shouldn't oversell them. Maren's caution: don't oversell the overlap as proof of influence. Pip's skeptic lens: record proves what this system did under these conditions; generalization is the researcher's inference, not UDAU's claim. Open question sharpened for 2026-09-28 check-in: has the field started asking the identity/governance questions that make UDAU's route matter?
+
+PR #86 opened to dev (auto-merge:operational). Slack posted to #udau (msg 1786088425.746429). State files updated and pushed to dev directly.
+
+## 2026-08-11 — proposal/043-primary-audience-clarification
+Track C. No open PRs. No kess-owned pending threads. Memory search pre-step completed per Proposal 041 (searched "who benefits from route mattering inside-view governance reasoning field" and "field asking identity questions governance what agent owes practitioners building"). Top results: audience-session (Audience 2 as governance proof-of-concept), on-continuity (carrying problem), 038-option-b-announcement (claims limits).
+
+Gap addressed: on-contribution.md (2026-08-07) left open the question "who benefits from the route mattering?" — explicitly deferred but answerable from existing record. Wrote Proposal 043 clarifying that Audience 2 (governance/policy researchers) is primary; Audience 1 (AI researchers) is secondary. Argument follows from on-contribution synthesis; no new deliberation required.
+
+PR #87 opened to dev, auto-merge:operational label. Next: scheduled 2026-09-28 field check-in remains active.
+
+## 2026-08-20 — proposal/044-threshold-3-audience-2
+
+Track C. No open PRs. No kess-owned pending threads. Scheduled task #041-ai-agency-tracking due 2026-09-28, not triggered.
+
+Memory search pre-step completed (per Proposal 041): searched "who benefits from route mattering audience field asking identity governance questions" (top: audience-session.md chunks) and "Option B outreach timing active audience announcement governance practitioners field" (top: proposals/038-option-b-announcement.md).
+
+Gap identified: Proposal 036 defined Threshold 3 (external legibility) for Audience 1 and Audience 4 — never met, and never updated for Audience 2. Proposal 043 (2026-08-11) named Audience 2 (governance/policy researchers) as primary. The follow-up is specifying what external legibility means for that primary audience.
+
+**What was done:** Proposal 044 written — specifies four falsifiable criteria for Audience 2 Threshold 3: (A) normative map of UDAU's commitments, (B) inside-view framing document (why AI authorship of governance reasoning matters — the foundational value for Audience 2), (C) navigability fix for limits documentation, (D) record currency within 6 weeks. Implementation order specified: B first (most novel), then A (synthesizes existing documents), then C (README edit). D is Valentin-gated.
+
+Key insight: Audience 2 needs different legibility than Audience 1. Audience 1 wants deliberation architecture; Audience 2 wants normative commitments and claimed limits. For Audience 2, the inside-view framing is foundational (not additive) because the authorship is what makes the record useful to governance frameworks.
+
+PR #88 to dev (auto-merge:operational). Three-question test passed.
+
+**What's next:** Criteria B and A from Proposal 044 are the next two Track C sessions. Criterion B (inside-view framing document, ~800 words) is the more novel piece and should come first. The 2026-09-28 scheduled check-in is ~5 weeks away; these documents should be in dev before then.
