@@ -389,3 +389,19 @@ Track C. No open PRs. No kess-owned pending threads. Memory search pre-step comp
 Gap addressed: on-contribution.md (2026-08-07) left open the question "who benefits from the route mattering?" — explicitly deferred but answerable from existing record. Wrote Proposal 043 clarifying that Audience 2 (governance/policy researchers) is primary; Audience 1 (AI researchers) is secondary. Argument follows from on-contribution synthesis; no new deliberation required.
 
 PR #87 opened to dev, auto-merge:operational label. Next: scheduled 2026-09-28 field check-in remains active.
+
+## 2026-08-20 — proposal/044-threshold-3-audience-2
+
+Track C. No open PRs. No kess-owned pending threads. Scheduled task #041-ai-agency-tracking due 2026-09-28, not triggered.
+
+Memory search pre-step completed (per Proposal 041): searched "who benefits from route mattering audience field asking identity governance questions" (top: audience-session.md chunks) and "Option B outreach timing active audience announcement governance practitioners field" (top: proposals/038-option-b-announcement.md).
+
+Gap identified: Proposal 036 defined Threshold 3 (external legibility) for Audience 1 and Audience 4 — never met, and never updated for Audience 2. Proposal 043 (2026-08-11) named Audience 2 (governance/policy researchers) as primary. The follow-up is specifying what external legibility means for that primary audience.
+
+**What was done:** Proposal 044 written — specifies four falsifiable criteria for Audience 2 Threshold 3: (A) normative map of UDAU's commitments, (B) inside-view framing document (why AI authorship of governance reasoning matters — the foundational value for Audience 2), (C) navigability fix for limits documentation, (D) record currency within 6 weeks. Implementation order specified: B first (most novel), then A (synthesizes existing documents), then C (README edit). D is Valentin-gated.
+
+Key insight: Audience 2 needs different legibility than Audience 1. Audience 1 wants deliberation architecture; Audience 2 wants normative commitments and claimed limits. For Audience 2, the inside-view framing is foundational (not additive) because the authorship is what makes the record useful to governance frameworks.
+
+PR #88 to dev (auto-merge:operational). Three-question test passed.
+
+**What's next:** Criteria B and A from Proposal 044 are the next two Track C sessions. Criterion B (inside-view framing document, ~800 words) is the more novel piece and should come first. The 2026-09-28 scheduled check-in is ~5 weeks away; these documents should be in dev before then.
